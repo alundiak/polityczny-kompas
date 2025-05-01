@@ -1,11 +1,13 @@
 import React from "react";
-import data from "./data.json";
+import { mergedData } from "./data/getData";
+
 import "./compass.css";
 
 interface Person {
   name: string;
   x: number;
   y: number;
+  type: string;
 }
 
 const PoliticalCompass: React.FC = () => {
@@ -31,7 +33,7 @@ const PoliticalCompass: React.FC = () => {
         <div className="region bottom-left">Libertarianizm</div>
         <div className="region bottom-right">Autorytaryzm</div> */}
 
-        {data.map((person, index) => (
+        {mergedData.map((person: Person, index) => (
           <div
             key={index}
             className="person"

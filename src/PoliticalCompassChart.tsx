@@ -10,7 +10,7 @@ import {
   ReferenceLine,
 } from "recharts";
 import { mergedData } from "./data/getData";
-import { SymbolType } from "recharts/types/util/types";
+// import { SymbolType } from "recharts/types/util/types";
 
 interface Person {
   name: string;
@@ -32,18 +32,18 @@ const getColorByType = (type: string): string => {
   }
 };
 
-const getShapeByType = (type: string): SymbolType => {
-  switch (type) {
-    case "presidential-candidate":
-      return "circle" as SymbolType;
-    case "polish-politician":
-      return "square" as SymbolType;
-    case "world-politician":
-      return "diamond" as SymbolType;
-    default:
-      return "circle" as SymbolType;
-  }
-};
+// const getShapeByType = (type: string): SymbolType => {
+//   switch (type) {
+//     case "presidential-candidate":
+//       return "circle" as SymbolType;
+//     case "polish-politician":
+//       return "square" as SymbolType;
+//     case "world-politician":
+//       return "diamond" as SymbolType;
+//     default:
+//       return "circle" as SymbolType;
+//   }
+// };
 
 const PoliticalCompassChart: React.FC = () => {
   const processedData = mergedData as Person[];
