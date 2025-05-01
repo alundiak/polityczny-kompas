@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Duda",
+    "x": 2,
+    "y": 2,
+    "type": "polish-politician"
+  },
+  {
+    "name": "Morawiecki",
+    "x": 3,
+    "y": 1,
+    "type": "polish-politician"
+  }
+]

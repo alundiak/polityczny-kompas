@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Hołownia",
+    "x": 1,
+    "y": 1,
+    "type": "presidential-candidate"
+  },
+  {
+    "name": "Trzaskowski",
+    "x": -1,
+    "y": -1,
+    "type": "presidential-candidate"
+  }
+]
