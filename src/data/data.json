@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Top-Left Quadrant (Authoritarian Left)",
+    "x": -5,
+    "y": 5,
+    "type": "quadrant"
+  },
+  {
+    "name": "Top-Right Quadrant (Authoritarian Right)",
+    "x": 5,
+    "y": 5,
+    "type": "quadrant"
+  },
+  {
+    "name": "Bottom-Left Quadrant (Libertarian Left)",
+    "x": -5,
+    "y": -5,
+    "type": "quadrant"
+  },
+  {
+    "name": "Bottom-Right Quadrant (Libertarian Right)",
+    "x": 5,
+    "y": -5,
+    "type": "quadrant"
+  },
+  {
+    "name": "Szymon Hołownia",
+    "x": 1,
+    "y": 1,
+    "type": "presidential-candidate"
+  },
+  {
+    "name": "Rafał Trzaskowski",
+    "x": -1,
+    "y": -1,
+    "type": "presidential-candidate"
+  }
+]

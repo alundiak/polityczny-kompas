@@ -8,8 +8,12 @@ import {
   Scatter,
   LabelList,
   ReferenceLine,
+  // Polygon,
+  // Customized,
+  ReferenceArea,
 } from "recharts";
 import { mergedData } from "./data/getData";
+// import mergedData from "./data/data.json";
 // import { SymbolType } from "recharts/types/util/types";
 
 interface Person {
@@ -45,6 +49,22 @@ const getColorByType = (type: string): string => {
 //   }
 // };
 
+// const myPoliticalRectangle = [
+//   { x: 2, y: 2 }, // I (Right-Authoritarian)
+//   { x: -2, y: 2 }, // II (Left-Authoritarian)
+//   { x: -2, y: -2 }, // III (Left-Libertarian)
+//   { x: 2, y: -2 }, // IV (Right-Libertarian)
+// ];
+
+const myPoliticalEdges = {
+  x1: 1, // I Right
+  y1: 1, // II Authoritarian
+  x2: -2, // III Left
+  y2: -4, // IV Libertarian
+};
+
+// const myPoliticalRectangle = "2,2 -2,2 -2,-2 2,-2";
+
 const PoliticalCompassChart: React.FC = () => {
   const processedData = mergedData as Person[];
 
@@ -56,7 +76,11 @@ const PoliticalCompassChart: React.FC = () => {
         margin={{ top: 40, right: 40, bottom: 40, left: 40 }}
       >
         {/* Grid lines with dimmed color */}
-        <CartesianGrid stroke="#e0e0e0" strokeDasharray="3 3" />
+        <CartesianGrid
+          stroke="#e0e0e0"
+          strokeDasharray="3 3"
+          // fill="white"
+        />
 
         {/* Bolder ReferenceLines for X=0 and Y=0 */}
         <ReferenceLine x={0} stroke="#000" strokeWidth={3} />
@@ -111,6 +135,26 @@ const PoliticalCompassChart: React.FC = () => {
             <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
           </Scatter>
         ))}
+
+        {/* <Customized
+          component={
+            <Polygon
+              points={myPoliticalRectangle}
+              fill="red"
+              stroke="#FFD700"
+              strokeWidth={3}
+            />
+          }
+        /> */}
+
+        <ReferenceArea
+          x1={myPoliticalEdges.x1}
+          x2={myPoliticalEdges.x2}
+          y1={myPoliticalEdges.y1}
+          y2={myPoliticalEdges.y2}
+          stroke="grey"
+          strokeOpacity={1}
+        />
       </ScatterChart>
 
       {/* Axis labels */}
