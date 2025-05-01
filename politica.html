@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kompas polityczny – Polska 2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      text-align: center;
+      background: #fafafa;
+    }
+    svg {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      background: #fff;
+      border: 1px solid #aaa;
+    }
+    .axis {
+      stroke: #333;
+      stroke-width: 1;
+    }
+    .grid {
+      stroke: #eee;
+      stroke-dasharray: 2,2;
+    }
+    .label {
+      font-size: 11px;
+      fill: #444;
+    }
+    .point-label {
+      font-size: 5px;
+      fill: #444;
+    }
+    .point {
+      fill: blue;
+      stroke: white;
+      stroke-width: 0.1;
+    }
+    .point-red {
+      fill: red;
+      stroke: white;
+      stroke-width: 2;
+    }
+    .point-grey {
+      fill: grey;
+      stroke: white;
+      stroke-width: 2;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="font-size: 18px;">Kompas polityczny kandydatów na prezydenta w Polsce – Maj 2025</h2>
+  <svg viewBox="-100 -100 200 200" preserveAspectRatio="xMidYMid meet">
+    <!-- Grid and Axes -->
+    <line x1="-100" y1="0" x2="100" y2="0" class="axis" />
+    <line x1="0" y1="-100" x2="0" y2="100" class="axis" />
+    <line x1="-100" y1="-50" x2="100" y2="-50" class="grid" />
+    <line x1="-100" y1="50" x2="100" y2="50" class="grid" />
+    <line x1="-50" y1="-100" x2="-50" y2="100" class="grid" />
+    <line x1="50" y1="-100" x2="50" y2="100" class="grid" />
+
+    <!-- Axis labels -->
+    <rect x="-40" y="-99" width="80" height="12" fill="#f2f2f2" />
+    <text x="0" y="-90" class="label" text-anchor="middle">Autorytaryzm</text>
+
+    <rect x="-40" y="85" width="80" height="12" fill="#f2f2f2" />
+    <text x="0" y="95" class="label" text-anchor="middle">Libertarianizm</text>
+
+    <rect x="-98" y="-30" width="12" height="60" fill="#cf5d92" />
+    <text x="-95" y="5" class="label" text-anchor="middle" transform="rotate(-90 -95,-2)">Lewica</text>
+
+    <rect x="86" y="-26" width="12" height="50" fill="#5190db" />
+    <text x="95" y="5" class="label" text-anchor="middle" transform="rotate(90 95,-2)">Prawica</text>
+
+    <!-- Candidates -->
+    <g class="points" text-anchor="middle">
+
+      <!-- Skrajna Lewica / Libertarianizm społeczny -->
+      <circle cx="-85" cy="-90" r="2.2" class="point-red"/>
+      <text x="-85" y="-84" class="point-label">Stalin</text>
+
+      <!-- autorytarna -->
+      <circle cx="-70" cy="-60" r="2.2" class="point"/>
+      <text x="-70" y="-55" class="point-label">Senyszyn</text>
+
+       <!-- Lewica -->
+
+      <circle cx="-80" cy="-35" r="2.2" class="point-red"/>
+      <text x="-80" y="-29" class="point-label">Lenin</text>
+
+      <circle cx="-50" cy="-25" r="2.2" class="point"/>
+      <text x="-50" y="-19" class="point-label" stroke-width="1">Zandberg</text>
+
+      <circle cx="-90" cy="35" r="2.2" class="point-red"/>
+      <text x="-85" y="41" class="point-label">Che Guavra</text>
+
+      <circle cx="-60" cy="25" r="2.2" class="point"/>
+      <text x="-60" y="31" class="point-label">Biejat</text>
+
+      <circle cx="-50" cy="50" r="2.2" class="point-grey"/>
+      <text x="-50" y="56" class="point-label">Biedroń</text>
+      <!-- <line x1="-60" y1="53" x2="-40" y2="57" stroke="grey" stroke-width="1" /> -->
+
+      <circle cx="-25" cy="35" r="2.2" class="point-grey"/>
+      <text x="-25" y="41" class="point-label">Wałensa</text>
+      <!-- <line x1="-35" y1="37" x2="-15" y2="42" stroke="grey" stroke-width="1" /> -->
+
+      <!-- Centrolewica -->
+
+      <circle cx="-20" cy="5" r="2.2" class="point-grey"/>
+      <text x="-23" y="10" class="point-label">Tusk</text>
+      <!-- <line x1="-56" y1="78" x2="-44" y2="82" stroke="grey" stroke-width="1" /> -->
+
+      <circle cx="-10" cy="10" r="2.2" class="point"/>
+      <text x="-15" y="17" class="point-label">Trzaskowski</text>
+
+      <!-- Centroprawica -->
+
+      <circle cx="10" cy="-10" r="2.2" class="point"/>
+      <text x="12" y="-3" class="point-label">Hołownia</text>
+
+      <circle cx="25" cy="0" r="2.2" class="point"/>
+      <text x="25" y="5" class="point-label">Stanowski</text>
+
+      <circle cx="20" cy="-22" r="2.2" class="point"/>
+      <text x="20" y="-16" class="point-label">Bartoszewicz</text>
+
+      <circle cx="10" cy="-30" r="2.2" class="point"/>
+      <text x="10" y="-25" class="point-label">Woch</text>
+
+      <!-- Prawica populistyczna -->
+
+      <circle cx="40" cy="-50" r="2.2" class="point"/>
+      <text x="40" y="-45" class="point-label">Jakubiak</text>
+
+      <!-- Prawica -->
+
+      <circle cx="60" cy="-55" r="2.2" class="point"/>
+      <text x="60" y="-50" class="point-label">Nawrocki</text>
+
+      <circle cx="60" cy="-45" r="2.2" class="point-grey"/>
+      <text x="60" y="-40" class="point-label">Duda</text>
+      <!-- <line x1="55" y1="-47" x2="66" y2="-43" stroke="grey" stroke-width="1" /> -->
+
+      <circle cx="71" cy="-42" r="2.2" class="point-grey"/>
+      <text x="80" y="-36" class="point-label">Kaczyński</text>
+      <!-- <line x1="68" y1="-40" x2="92" y2="-35" stroke="grey" stroke-width="1" /> -->
+
+      <circle cx="65" cy="-30" r="2.2" class="point"/>
+      <text x="65" y="-25" class="point-label">Maciak</text>
+
+      <!-- Skrajna prawica + Autorytarzym -->
+
+      <circle cx="30" cy="-84" r="2.2" class="point-red"/>
+      <text x="30" y="-78" class="point-label">Putin</text>
+
+      <circle cx="40" cy="-65" r="2.2" class="point-red"/>
+      <text x="40" y="-58" class="point-label">Trump</text>
+
+      <circle cx="90" cy="-90" r="2.2" class="point-red"/>
+      <text x="90" y="-84" class="point-label">Hitler</text>
+
+      <circle cx="80" cy="-80" r="2.2" class="point-red"/>
+      <text x="85" y="-74" class="point-label">Mussolini</text>
+
+      <circle cx="80" cy="-70" r="2.2" class="point"/>
+      <text x="80" y="-65" class="point-label">Braun</text>
+
+      <!-- Skrajna Prawica + Libertarianizm -->
+
+      <circle cx="75" cy="50" r="2.2" class="point"/>
+      <text x="75" y="56" class="point-label">Mentzen</text>
+
+      <circle cx="65" cy="45" r="2.2" class="point-grey"/>
+      <text x="64" y="42" class="point-label">Bosak</text>
+      <!-- <line x1="58" y1="38" x2="71" y2="43" stroke="grey" stroke-width="1" /> -->
+
+      <circle cx="90" cy="80" r="2.2" class="point-grey"/>
+      <text x="85" y="86" class="point-label">Korwin-Mikke</text>
+      <!-- <line x1="70" y1="83" x2="100" y2="86" stroke="grey" stroke-width="1" /> -->
+
+    </g>
+  </svg>
+  <div>
+    &copy; Andrii LUNDIAK
+  </div>
+</body>
+</html>
