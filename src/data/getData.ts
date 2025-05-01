@@ -1,5 +1,9 @@
 import poland2025 from "./poland-2025.json";
-import poland from "./poland.json";
+import polandOther from "./polandOther.json";
 import world from "./world.json";
 
-export const mergedData = [...poland2025, ...poland, ...world];
+export default {
+  poland2025,
+  polandOther,
+  world,
+};

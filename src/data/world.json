@@ -1,14 +1,207 @@
 [
   {
+    "name": "Jinping",
+    "x": -4,
+    "y": 4
+  },
+  {
+    "name": "Napoleon",
+    "x": 2,
+    "y": 4
+  },
+  {
+    "name": "al-Assad",
+    "x": -0.5,
+    "y": 4.5
+  },
+  {
+    "name": "Husejn",
+    "x": -1.5,
+    "y": 4.5
+  },
+  {
     "name": "Macron",
-    "x": 1,
-    "y": -2,
-    "type": "world-politician"
+    "x": -0.5,
+    "y": -0.5
+  },
+  {
+    "name": "Sunak",
+    "x": 2,
+    "y": 0.5
+  },
+  {
+    "name": "Baerbock",
+    "x": -2.5,
+    "y": -0.5
+  },
+  {
+    "name": "Obama",
+    "x": -2,
+    "y": 0.5
   },
   {
     "name": "Biden",
+    "x": -1.5,
+    "y": 1.5
+  },
+  {
+    "name": "Clinton",
+    "x": -1,
+    "y": 1
+  },
+  {
+    "name": "Kallas",
+    "x": -2,
+    "y": 0
+  },
+  {
+    "name": "Merkel",
+    "x": 1,
+    "y": -2
+  },
+  {
+    "name": "Trudeau",
+    "x": -2,
+    "y": 1
+  },
+  {
+    "name": "Meloni",
+    "x": 4,
+    "y": 2
+  },
+  {
+    "name": "Pinochet",
+    "x": 4,
+    "y": 4.5
+  },
+  {
+    "name": "Mussolini",
+    "x": 3,
+    "y": 5
+  },
+  {
+    "name": "Milei",
+    "x": 5,
+    "y": -4
+  },
+  {
+    "name": "Hitler",
+    "x": 5,
+    "y": 5
+  },
+  {
+    "name": "Le Pen",
+    "x": 3,
+    "y": 2
+  },
+  {
+    "name": "Trump",
+    "x": 3.5,
+    "y": 1.5
+  },
+  {
+    "name": "Musk",
+    "x": 4,
+    "y": -2
+  },
+  {
+    "name": "AOC",
+    "x": -4,
+    "y": -1
+  },
+  {
+    "name": "Sanders",
+    "x": -3.5,
+    "y": -1.5
+  },
+  {
+    "name": "Reagan",
+    "x": 5,
+    "y": 0.5
+  },
+  {
+    "name": "Thatcher",
+    "x": 5,
+    "y": -0.5
+  },
+  {
+    "name": "Friedman",
+    "x": 5,
+    "y": 0
+  },
+  {
+    "name": "Machno",
+    "x": -5,
+    "y": -5
+  },
+  {
+    "name": "Lenin",
+    "x": -4,
+    "y": 3.5
+  },
+  {
+    "name": "Marx",
+    "x": -5,
+    "y": 1
+  },
+  {
+    "name": "Chomsky",
+    "x": -5,
+    "y": 0
+  },
+  {
+    "name": "Stalin",
+    "x": -5,
+    "y": 5
+  },
+  {
+    "name": "Castro",
+    "x": -4.5,
+    "y": 4.5
+  },
+  {
+    "name": "Gorbachov",
+    "x": -2,
+    "y": 3
+  },
+  {
+    "name": "Jelcyn",
+    "x": 0.5,
+    "y": 2.5
+  },
+  {
+    "name": "Putin",
+    "x": 2,
+    "y": 5
+  },
+  {
+    "name": "Zelenskyy",
+    "x": 1,
+    "y": -0.5
+  },
+  {
+    "name": "Guevara",
+    "x": -5,
+    "y": -3
+  },
+  {
+    "name": "Goldman",
+    "x": -4,
+    "y": -4
+  },
+  {
+    "name": "Rothbard",
+    "x": 5,
+    "y": -5
+  },
+  {
+    "name": "Paul",
+    "x": 4,
+    "y": -4
+  },
+  {
+    "name": "Snowden",
     "x": 0,
-    "y": 1,
-    "type": "world-politician"
+    "y": -5
   }
 ]

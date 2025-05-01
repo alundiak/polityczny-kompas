@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   ScatterChart,
   CartesianGrid,
@@ -11,22 +11,22 @@ import {
   // Polygon,
   // Customized,
   ReferenceArea,
+  // Legend,
 } from "recharts";
-import { mergedData } from "./data/getData";
-// import mergedData from "./data/data.json";
+import data from "./data/getData";
 // import { SymbolType } from "recharts/types/util/types";
 
 interface Person {
   name: string;
   x: number;
   y: number;
-  type: string;
 }
 
 const getColorByType = (type: string): string => {
   switch (type) {
     case "presidential-candidate":
-      return "#FFD700"; // Gold
+      // return "#8884d8"; // #FFD700 => Gold
+      return "blue";
     case "polish-politician":
       return "#32CD32"; // Lime Green
     case "world-politician":
@@ -60,22 +60,36 @@ const myPoliticalEdges = {
   x1: 1, // I Right
   y1: 1, // II Authoritarian
   x2: -2, // III Left
-  y2: -4, // IV Libertarian
+  y2: -3, // IV Libertarian
 };
 
 // const myPoliticalRectangle = "2,2 -2,2 -2,-2 2,-2";
 
 const PoliticalCompassChart: React.FC = () => {
-  const processedData = mergedData as Person[];
+  const [showPoland2025, setShowPoland2025] = useState(true);
+  const [showOtherPoland, setShowOtherPoland] = useState(true);
+  const [showWorld, setShowWorld] = useState(true);
+
+  // TBD
+  const dummy = () => {
+    setShowPoland2025(false);
+    setShowOtherPoland(true);
+    setShowWorld(true);
+  };
 
   return (
-    <div style={{ width: 600, height: 600, position: "relative" }}>
+    <div
+      style={{ width: 800, height: 800, position: "relative" }}
+      onClick={() => {
+        dummy();
+      }}
+    >
       <ScatterChart
-        width={600}
-        height={600}
+        width={800}
+        height={800}
         margin={{ top: 40, right: 40, bottom: 40, left: 40 }}
       >
-        {/* Grid lines with dimmed color */}
+        {/* Grid lines with lighter color */}
         <CartesianGrid
           stroke="#e0e0e0"
           strokeDasharray="3 3"
@@ -105,11 +119,52 @@ const PoliticalCompassChart: React.FC = () => {
 
         <Tooltip />
 
-        {/*
-        <Scatter name="People" data={processedData} fill="#8884d8">
-          <LabelList dataKey="name" position="top" style={{ fontSize: 16 }} />
-        </Scatter>
-        */}
+        {showPoland2025 && (
+          <Scatter
+            name="People-Poland-2025"
+            data={data.poland2025 as Person[]}
+            // fill="#8884d8"
+            fill={getColorByType("presidential-candidate")}
+            // shape="square"
+            // isAnimationActive={false}
+          >
+            <LabelList
+              fill="black"
+              dataKey="name"
+              position="top"
+              style={{ fontSize: 20 }}
+            />
+          </Scatter>
+        )}
+
+        {showOtherPoland && (
+          <Scatter
+            name="Other-Poland-People"
+            data={data.polandOther as Person[]}
+            // fill={getColorByType("polish-politician")}
+            fill="grey"
+            // shape="square"
+            isAnimationActive={false}
+          >
+            <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
+          </Scatter>
+        )}
+
+        {showWorld && (
+          <Scatter
+            name="World-People"
+            data={data.world as Person[]}
+            // fill={getColorByType("world-politician")}
+            fill="grey"
+            // shape="square"
+            isAnimationActive={false}
+          >
+            <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
+          </Scatter>
+        )}
+
+        {/* works, but need to redesign kompas */}
+        {/* <Legend /> */}
 
         {/*
         <Scatter
@@ -122,7 +177,7 @@ const PoliticalCompassChart: React.FC = () => {
         </Scatter>
         */}
 
-        {processedData.map((entry, index) => (
+        {/* {processedData.map((entry, index) => (
           <Scatter
             isAnimationActive={false}
             key={index}
@@ -134,7 +189,7 @@ const PoliticalCompassChart: React.FC = () => {
           >
             <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
           </Scatter>
-        ))}
+        ))} */}
 
         {/* <Customized
           component={
@@ -152,8 +207,11 @@ const PoliticalCompassChart: React.FC = () => {
           x2={myPoliticalEdges.x2}
           y1={myPoliticalEdges.y1}
           y2={myPoliticalEdges.y2}
-          stroke="grey"
-          strokeOpacity={1}
+          isFront={false}
+          fill="green"
+          fillOpacity={0.1}
+          stroke="green"
+          strokeOpacity={0.5}
         />
       </ScatterChart>
 
@@ -167,7 +225,7 @@ const PoliticalCompassChart: React.FC = () => {
           transform: "translateY(-50%)",
           fontWeight: "bold",
           fontSize: "20px",
-          color: "#1E90FF",
+          // color: "#1E90FF",
         }}
       >
         Left
@@ -182,7 +240,7 @@ const PoliticalCompassChart: React.FC = () => {
           transform: "translateY(-50%)",
           fontWeight: "bold",
           fontSize: "20px",
-          color: "#FF4500",
+          // color: "#FF4500",
         }}
       >
         Right
@@ -197,7 +255,7 @@ const PoliticalCompassChart: React.FC = () => {
           transform: "translateX(-50%)",
           fontWeight: "bold",
           fontSize: "20px",
-          color: "#8B0000",
+          // color: "#8B0000",
         }}
       >
         Authoritarianism
@@ -212,7 +270,7 @@ const PoliticalCompassChart: React.FC = () => {
           transform: "translateX(-50%)",
           fontWeight: "bold",
           fontSize: "20px",
-          color: "#32CD32",
+          // color: "#32CD32",
         }}
       >
         Libertarianism

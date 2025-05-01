@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Kaczyński",
+    "x": 2.5,
+    "y": 3.5
+  },
+  {
+    "name": "Duda",
+    "x": 2.5,
+    "y": 2.5
+  },
+  {
+    "name": "Morawiecki",
+    "x": 3,
+    "y": 1
+  },
+  {
+    "name": "Korwin-Mikke",
+    "x": 4.5,
+    "y": -4.5
+  },
+  {
+    "name": "Tusk",
+    "x": -1,
+    "y": 0
+  },
+  {
+    "name": "Wałęsa",
+    "x": -0.5,
+    "y": -2
+  },
+  {
+    "name": "Kwaśniewski",
+    "x": -4,
+    "y": 2.5
+  },
+  {
+    "name": "Jachira",
+    "x": -3,
+    "y": -2
+  },
+  {
+    "name": "Biedroń",
+    "x": -4,
+    "y": -2
+  }
+]

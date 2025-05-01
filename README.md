@@ -6,6 +6,8 @@ Code samples to help my understand my political views
 
 Mainly based on upcoming Presidential Elections in Poland.
 
+https://en.wikipedia.org/wiki/2025_Polish_presidential_election
+
 ## Tech stack
 
 - React
@@ -28,7 +30,7 @@ Mainly based on upcoming Presidential Elections in Poland.
 
 PS.
 
-v2 - react + ReCharts version
+v2 - React + ReCharts version
 ![img-v2](./images/img-v2.png)
 
 v1 - [basic, HTML/SVG version](https://alundiak.github.io/polityczny-kompas/politica.html)

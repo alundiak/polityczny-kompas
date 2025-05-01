@@ -1,14 +1,67 @@
 [
   {
-    "name": "Hołownia",
-    "x": 1,
-    "y": 1,
-    "type": "presidential-candidate"
+    "name": "Zandberg",
+    "x": -3,
+    "y": 1.5
+  },
+  {
+    "name": "Senyszyn",
+    "x": -4,
+    "y": 2
+  },
+  {
+    "name": "Biejat",
+    "x": -3,
+    "y": -1
   },
   {
     "name": "Trzaskowski",
     "x": -1,
-    "y": -1,
-    "type": "presidential-candidate"
+    "y": -1
+  },
+  {
+    "name": "Hołownia",
+    "x": 1,
+    "y": 1
+  },
+  {
+    "name": "Stanowski",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "name": "Nawrocki",
+    "x": 1.5,
+    "y": 3
+  },
+  {
+    "name": "Jakubiak",
+    "x": 1.5,
+    "y": 2
+  },
+  {
+    "name": "Maciak",
+    "x": 1,
+    "y": 3.5
+  },
+  {
+    "name": "Woch",
+    "x": 0.5,
+    "y": 1.5
+  },
+  {
+    "name": "Bartoszewicz",
+    "x": 2,
+    "y": 1.5
+  },
+  {
+    "name": "Mentzen",
+    "x": 4,
+    "y": -1
+  },
+  {
+    "name": "Braun",
+    "x": 4,
+    "y": 3
   }
 ]
