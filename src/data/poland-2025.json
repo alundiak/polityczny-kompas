@@ -1,18 +1,18 @@
 [
   {
     "name": "Zandberg",
-    "x": -3,
-    "y": 1.5
+    "x": -3.5,
+    "y": -1.5
   },
   {
     "name": "Senyszyn",
     "x": -4,
-    "y": 2
+    "y": 0.5
   },
   {
     "name": "Biejat",
     "x": -3,
-    "y": -1
+    "y": 0
   },
   {
     "name": "Trzaskowski",
@@ -25,34 +25,34 @@
     "y": 1
   },
   {
-    "name": "Stanowski",
-    "x": 0,
-    "y": 0
-  },
-  {
     "name": "Nawrocki",
-    "x": 1.5,
-    "y": 3
+    "x": 2,
+    "y": 2.5
   },
   {
     "name": "Jakubiak",
-    "x": 1.5,
+    "x": 3,
     "y": 2
   },
   {
-    "name": "Maciak",
-    "x": 1,
-    "y": 3.5
-  },
-  {
     "name": "Woch",
-    "x": 0.5,
-    "y": 1.5
+    "x": 1,
+    "y": 2
   },
   {
     "name": "Bartoszewicz",
     "x": 2,
-    "y": 1.5
+    "y": 0
+  },
+  {
+    "name": "Stanowski",
+    "x": 3.6,
+    "y": 0.5
+  },
+  {
+    "name": "Maciak",
+    "x": 3,
+    "y": 3
   },
   {
     "name": "Mentzen",
