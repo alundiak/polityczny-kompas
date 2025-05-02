@@ -15,49 +15,14 @@
     "y": 4.5
   },
   {
-    "name": "Trudeau",
-    "x": -2.5,
-    "y": 1.5
-  },
-  {
-    "name": "Pinochet",
-    "x": 4,
-    "y": 4.5
-  },
-  {
-    "name": "Mussolini",
-    "x": 3,
-    "y": 5
-  },
-  {
-    "name": "Milei",
-    "x": 5,
-    "y": -4
-  },
-  {
     "name": "Friedman",
     "x": 5,
     "y": 0
   },
   {
-    "name": "Marks",
-    "x": -5,
-    "y": 3
-  },
-  {
     "name": "Chomsky",
     "x": -5,
     "y": 0
-  },
-  {
-    "name": "Castro",
-    "x": -4.5,
-    "y": 4.5
-  },
-  {
-    "name": "Guevara",
-    "x": -5,
-    "y": -3
   },
   {
     "name": "Goldman",

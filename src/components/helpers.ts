@@ -1,33 +1,66 @@
-// import { SymbolType } from "recharts/types/util/types";
+import { CSSProperties } from "react";
+import { SymbolType } from "recharts/types/util/types";
+import { CompassData, DataKind } from "./models";
 
-import { CompassData } from "./models";
+export const DEFAULT_SCATTERS_IDS: DataKind[] = ["poland2025", "polandOther"];
 
-export const getColorByType = (type: string): string => {
-  switch (type) {
-    case "presidential-candidate":
-      // return "#8884d8"; // #FFD700 => Gold
+export const getColorByType = (scatterId: DataKind): string => {
+  switch (scatterId) {
+    case "poland2025":
       return "blue";
-    case "polish-politician":
-      return "#32CD32"; // Lime Green
-    case "world-politician":
-      return "#1E90FF"; // Dodger Blue
+
+    case "polandOther":
+      return "grey";
+
     default:
-      return "#8884d8"; // Default color
+      return "grey";
   }
 };
 
-// const getShapeByType = (type: string): SymbolType => {
-//   switch (type) {
-//     case "presidential-candidate":
-//       return "circle" as SymbolType;
-//     case "polish-politician":
-//       return "square" as SymbolType;
-//     case "world-politician":
-//       return "diamond" as SymbolType;
-//     default:
-//       return "circle" as SymbolType;
-//   }
-// };
+export const getShapeByType = (scatterId: DataKind): SymbolType => {
+  switch (scatterId) {
+    case "poland2025":
+    case "polandOther":
+      return "circle" as SymbolType;
+
+    default:
+      return "square" as SymbolType;
+  }
+};
+
+export const getDataPointStyleByType = (scatterId: DataKind): CSSProperties => {
+  switch (scatterId) {
+    case "poland2025":
+      return { fontSize: 20 };
+
+    case "polandOther":
+      return { fontSize: 12 };
+
+    default:
+      return { fontSize: 12 };
+  }
+};
+
+export const getDataPointFillByType = (scatterId: DataKind): string => {
+  switch (scatterId) {
+    case "poland2025":
+      return "black";
+
+    default:
+      return "";
+  }
+};
+
+export function findSameCoordinates(data: CompassData) {
+  Object.entries(data).forEach(([group, people]) => {
+    people.forEach((current, index, array) => {
+      const previous = array[index - 1];
+      if (previous && previous.x === current.x && previous.y === current.y) {
+        console.log(`Group: ${group}, Duplicate Person:`, current);
+      }
+    });
+  });
+}
 
 // const myPoliticalRectangle = [
 //   { x: 2, y: 2 }, // I (Right-Authoritarian)
@@ -44,14 +77,3 @@ export const myPoliticalEdges = {
 };
 
 // const myPoliticalRectangle = "2,2 -2,2 -2,-2 2,-2";
-
-export function findSameCoordinates(data: CompassData) {
-  Object.entries(data).forEach(([group, people]) => {
-    people.forEach((current, index, array) => {
-      const previous = array[index - 1];
-      if (previous && previous.x === current.x && previous.y === current.y) {
-        console.log(`Group: ${group}, Duplicate Person:`, current);
-      }
-    });
-  });
-}

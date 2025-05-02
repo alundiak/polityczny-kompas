@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+
 import PoliticalCompassChart from "./PoliticalCompassChart";
 import data from "../data/getData";
+import { DEFAULT_SCATTERS_IDS, findSameCoordinates } from "./helpers";
+import { CompassData, DataKind } from "./models";
 
 import "./threeColumnLayout.css";
-import { findSameCoordinates } from "./helpers";
-import { CompassData } from "./models";
 
 findSameCoordinates(data as CompassData);
 
@@ -12,25 +13,71 @@ const ThreeColumnLayout: React.FC = () => {
   // Note. Renders twice.
   // console.log("ThreeColumnLayout");
 
-  const [showPoland2025, setShowPoland2025] = useState(true);
-  const [showOtherPoland, setShowOtherPoland] = useState(true);
+  const [scattersIds, setScattersIds] = useState<Set<DataKind>>(
+    new Set(DEFAULT_SCATTERS_IDS)
+  );
+
+  const toggleCheckbox = (key: DataKind) => {
+    setScattersIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) {
+        next.delete(key);
+      } else {
+        next.add(key);
+      }
+      return next;
+    });
+  };
 
   return (
     <div className="wrapper">
       <div className="column">
         <label>
-          <input type="checkbox" /> USA
+          <input
+            type="checkbox"
+            checked={scattersIds.has("america")}
+            onChange={() => {
+              toggleCheckbox("america");
+            }}
+          />
+          America
         </label>
         <label>
-          <input type="checkbox" /> Europe
+          <input
+            type="checkbox"
+            checked={scattersIds.has("europe")}
+            onChange={() => {
+              toggleCheckbox("europe");
+            }}
+          />
+          Europe
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            checked={scattersIds.has("ukraine")}
+            onChange={() => {
+              toggleCheckbox("ukraine");
+            }}
+          />
+          Ukraine
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            checked={scattersIds.has("russia")}
+            onChange={() => {
+              toggleCheckbox("russia");
+            }}
+          />
+          russia
         </label>
       </div>
 
       <div className="centerColumn">
         <PoliticalCompassChart
           data={data}
-          showPoland2025={showPoland2025}
-          showOtherPoland={showOtherPoland}
+          scattersIds={Array.from(scattersIds)}
         />
       </div>
 
@@ -38,9 +85,9 @@ const ThreeColumnLayout: React.FC = () => {
         <label>
           <input
             type="checkbox"
-            checked={showPoland2025}
+            checked={scattersIds.has("poland2025")}
             onChange={() => {
-              setShowPoland2025((previous) => !previous);
+              toggleCheckbox("poland2025");
             }}
           />
           Poland (2025)
@@ -48,18 +95,12 @@ const ThreeColumnLayout: React.FC = () => {
         <label>
           <input
             type="checkbox"
-            checked={showOtherPoland}
+            checked={scattersIds.has("polandOther")}
             onChange={() => {
-              setShowOtherPoland((previous) => !previous);
+              toggleCheckbox("polandOther");
             }}
-          />{" "}
+          />
           Poland (other)
-        </label>
-        <label>
-          <input type="checkbox" /> Ukraine
-        </label>
-        <label>
-          <input type="checkbox" /> russia
         </label>
       </div>
     </div>

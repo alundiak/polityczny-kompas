@@ -1,3 +1,12 @@
+export type DataKind =
+  | "poland2025"
+  | "polandOther"
+  | "america"
+  | "europe"
+  | "russia"
+  | "ukraine"
+  | "world";
+
 export interface Person {
   name: string;
   x: number;
@@ -10,6 +19,10 @@ export interface CompassData {
 
 export interface PoliticalCompassChartProps {
   data: CompassData;
-  showPoland2025: boolean;
-  showOtherPoland: boolean;
+  scattersIds: DataKind[];
+}
+
+export interface OneScatterProps {
+  scatterId: DataKind;
+  data: Person[];
 }

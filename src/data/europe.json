@@ -1,5 +1,15 @@
 [
   {
+    "name": "Mussolini",
+    "x": 3,
+    "y": 5
+  },
+  {
+    "name": "Marks",
+    "x": -5,
+    "y": 3
+  },
+  {
     "name": "Napoleon",
     "x": 1.5,
     "y": 4

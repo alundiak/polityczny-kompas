@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   ScatterChart,
   CartesianGrid,
@@ -15,32 +15,39 @@ import {
 } from "recharts";
 
 import AxisLabels from "./AxisLabels";
-import { getColorByType, myPoliticalEdges } from "./helpers";
-import { PoliticalCompassChartProps } from "./models";
+import {
+  getColorByType,
+  getDataPointFillByType,
+  getDataPointStyleByType,
+  getShapeByType,
+  myPoliticalEdges,
+} from "./helpers";
+import { DataKind, PoliticalCompassChartProps } from "./models";
 
 const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
-  const { poland2025, polandOther, world, usa, europe, russia, ukraine } =
-    props.data;
-
-  const mergedWorld = [...world, ...usa, ...europe, ...russia, ...ukraine];
-  // const [showPoland2025, setShowPoland2025] = useState(true);
-  // const [showOtherPoland, setShowOtherPoland] = useState(true);
-  const [showWorld, setShowWorld] = useState(false);
-
-  // TBD
-  const dummy = () => {
-    // setShowPoland2025(true);
-    // setShowOtherPoland(true);
-    setShowWorld(true);
+  const mapper = (scatterId: DataKind) => {
+    // Note. YES, <Scatter> should rendered DIRECTLY as child under <ScatterChart>
+    // If to extract this chunk of code into dedicated component, then code will NOT render!
+    return (
+      <Scatter
+        name={`${scatterId}-people`}
+        data={props.data[scatterId]}
+        fill={getColorByType(scatterId)}
+        shape={getShapeByType(scatterId)}
+        isAnimationActive={false}
+      >
+        <LabelList
+          fill={getDataPointFillByType(scatterId)}
+          dataKey="name"
+          position="top"
+          style={getDataPointStyleByType(scatterId)}
+        />
+      </Scatter>
+    );
   };
 
   return (
-    <div
-      style={{ width: 800, height: 800, position: "relative" }}
-      onClick={() => {
-        dummy();
-      }}
-    >
+    <div style={{ width: 800, height: 800, position: "relative" }}>
       <ScatterChart
         width={800}
         height={800}
@@ -76,49 +83,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
 
         <Tooltip />
 
-        {props.showPoland2025 && (
-          <Scatter
-            name="People-Poland-2025"
-            data={poland2025}
-            // fill="#8884d8"
-            fill={getColorByType("presidential-candidate")}
-            // shape="square"
-            isAnimationActive={false}
-          >
-            <LabelList
-              fill="black"
-              dataKey="name"
-              position="top"
-              style={{ fontSize: 20 }}
-            />
-          </Scatter>
-        )}
-
-        {props.showOtherPoland && (
-          <Scatter
-            name="Other-Poland-People"
-            data={polandOther}
-            // fill={getColorByType("polish-politician")}
-            fill="grey"
-            // shape="square"
-            isAnimationActive={false}
-          >
-            <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
-          </Scatter>
-        )}
-
-        {showWorld && (
-          <Scatter
-            name="World-People"
-            data={mergedWorld}
-            // fill={getColorByType("world-politician")}
-            fill="grey"
-            shape="square"
-            isAnimationActive={false}
-          >
-            <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
-          </Scatter>
-        )}
+        {props.scattersIds.map(mapper)}
 
         {/* works, but need to redesign kompas */}
         {/* <Legend /> */}
