@@ -9,36 +9,38 @@ Political compass to help my understand my political views:
 
 Green rectangle is "my political views" area. Other dots represent political people I somehow know.
 
-## Versions
-
-v2 - React + ReCharts version
 ![img-v2](./images/img-v2.png)
 
-v1 - [basic, HTML/SVG version](https://alundiak.github.io/polityczny-kompas/politica.html)
+And [here](https://alundiak.github.io/polityczny-kompas/politica.html) is previous, my initial very basic version using basic HTML/SVG.
 
-![img-v1](./images/img-v1.png)
+## Reason/Goal
 
-## 2025
-
-Mainly based on upcoming Presidential Elections in Poland.
+Because of Presidential Elections in Poland 18-May-2025 I decided to create a political compass to review candidates views.
 
 - https://en.wikipedia.org/wiki/2025_Polish_presidential_election
+
+But as I always liked politics, and I like to dive deeper into political views on myself, I decided to extend this political compass with wider spectrum comparing all geo-political people I somehow know.
+
+Most complicated is to define exact number in the scale from `[-5; +5]`, because not always people have definitive political views and spectrum is "tricky" sometimes.
+
+![spectrum](./images/political_spectrum.jpeg)
 
 ## Other Political resources:
 
 - https://en.wikipedia.org/wiki/Political_spectrum
 - https://rationalwiki.org/wiki/Political_Compass
+- I also use [ChatGPT](https://chatgpt.com/) to research and compare people's political view. But it is sometimes very wrong, so need to be always cautious and double check facts personally.
 
 ## Tech stack
 
 - React
 - ReCharts (`<ScatterChart>`, `<CartesianGrid>`, `<ReferenceLine>`, `<ReferenceArea>` etc.)
-  - https://recharts.org/
   - https://recharts.org/en-US/examples/SimpleScatterChart
   - https://codesandbox.io/p/sandbox/recharts-referencearea-with-a-custom-shape-iwp2j
 
-## Other codebases, inspired
+## Kinda inspired by
 
+- https://www.politicalcompass.org/
 - https://github.com/greygatch/political-compass/
 - https://github.com/AUTOMATIC1111/llm-political-compass
 - https://github.com/experience-experiments/react-easy-chart DEPRECATED

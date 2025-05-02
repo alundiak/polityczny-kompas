@@ -36,8 +36,8 @@
   },
   {
     "name": "Meloni",
-    "x": 4,
-    "y": 2
+    "x": 3,
+    "y": 2.5
   },
   {
     "name": "Le Pen",
@@ -48,5 +48,75 @@
     "name": "Thatcher",
     "x": 5,
     "y": -0.5
+  },
+  {
+    "name": "Čaputová",
+    "x": -2,
+    "y": -1
+  },
+  {
+    "name": "Šimečka",
+    "x": -2.5,
+    "y": -1.5
+  },
+  {
+    "name": "Fico",
+    "x": 1,
+    "y": 2.5
+  },
+  {
+    "name": "Pellegrini",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "name": "Heger",
+    "x": 0.5,
+    "y": 0.5
+  },
+  {
+    "name": "Sanna Marin",
+    "x": -1.5,
+    "y": -0.5
+  },
+  {
+    "name": "Nausėda",
+    "x": 0.5,
+    "y": -1.5
+  },
+  {
+    "name": "Stocker",
+    "x": 1,
+    "y": 0
+  },
+  {
+    "name": "Nehammer",
+    "x": 2,
+    "y": 1
+  },
+  {
+    "name": "Stubb",
+    "x": 1.5,
+    "y": 0.5
+  },
+  {
+    "name": "Novák",
+    "x": 2,
+    "y": 3.5
+  },
+  {
+    "name": "Orbán",
+    "x": 4,
+    "y": 4
+  },
+  {
+    "name": "Szentkirályi",
+    "x": 3,
+    "y": 3.5
+  },
+  {
+    "name": "Magyar",
+    "x": 1.5,
+    "y": 1.5
   }
 ]

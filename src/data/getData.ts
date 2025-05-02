@@ -9,5 +9,9 @@ import russia from "./russia.json";
 export default {
   poland2025,
   polandOther,
-  world: [...world, ...usa, ...europe, ...russia, ukraine],
+  world,
+  usa,
+  europe,
+  russia,
+  ukraine,
 };

@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  align-items: flex-start;
+
+  label {
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 10px;
+    user-select: none;
+
+    input {
+      cursor: pointer;
+    }
+  }
+}
+
+.centerColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 850px;
+  height: 850px;
+}

@@ -1,10 +1,12 @@
 import "./App.css";
-import PoliticalCompassChart from "./components/PoliticalCompassChart";
+// import PoliticalCompassChart from "./components/PoliticalCompassChart";
+import ThreeColumnLayout from "./components/ThreeColumnLayout";
 
 function App() {
   return (
     <>
-      <PoliticalCompassChart />
+      <ThreeColumnLayout />
+      {/* <PoliticalCompassChart /> */}
     </>
   );
 }

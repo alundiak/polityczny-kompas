@@ -13,7 +13,7 @@ import {
   ReferenceArea,
   // Legend,
 } from "recharts";
-import data from "../data/getData";
+
 import AxisLabels from "./AxisLabels";
 import { getColorByType, myPoliticalEdges } from "./helpers";
 
@@ -23,15 +23,27 @@ interface Person {
   y: number;
 }
 
-const PoliticalCompassChart: React.FC = () => {
-  const [showPoland2025, setShowPoland2025] = useState(true);
-  const [showOtherPoland, setShowOtherPoland] = useState(true);
-  const [showWorld, setShowWorld] = useState(true);
+interface Props {
+  data: {
+    [key: string]: Person[];
+  };
+  showPoland2025: boolean;
+  showOtherPoland: boolean;
+}
+
+const PoliticalCompassChart: React.FC<Props> = (props) => {
+  const { poland2025, polandOther, world, usa, europe, russia, ukraine } =
+    props.data;
+
+  const mergedWorld = [...world, ...usa, ...europe, ...russia, ...ukraine];
+  // const [showPoland2025, setShowPoland2025] = useState(true);
+  // const [showOtherPoland, setShowOtherPoland] = useState(true);
+  const [showWorld, setShowWorld] = useState(false);
 
   // TBD
   const dummy = () => {
-    setShowPoland2025(true);
-    setShowOtherPoland(true);
+    // setShowPoland2025(true);
+    // setShowOtherPoland(true);
     setShowWorld(true);
   };
 
@@ -77,10 +89,10 @@ const PoliticalCompassChart: React.FC = () => {
 
         <Tooltip />
 
-        {showPoland2025 && (
+        {props.showPoland2025 && (
           <Scatter
             name="People-Poland-2025"
-            data={data.poland2025 as Person[]}
+            data={poland2025}
             // fill="#8884d8"
             fill={getColorByType("presidential-candidate")}
             // shape="square"
@@ -95,10 +107,10 @@ const PoliticalCompassChart: React.FC = () => {
           </Scatter>
         )}
 
-        {showOtherPoland && (
+        {props.showOtherPoland && (
           <Scatter
             name="Other-Poland-People"
-            data={data.polandOther as Person[]}
+            data={polandOther}
             // fill={getColorByType("polish-politician")}
             fill="grey"
             // shape="square"
@@ -111,10 +123,10 @@ const PoliticalCompassChart: React.FC = () => {
         {showWorld && (
           <Scatter
             name="World-People"
-            data={data.world as Person[]}
+            data={mergedWorld}
             // fill={getColorByType("world-politician")}
             fill="grey"
-            // shape="square"
+            shape="square"
             isAnimationActive={false}
           >
             <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
@@ -123,42 +135,6 @@ const PoliticalCompassChart: React.FC = () => {
 
         {/* works, but need to redesign kompas */}
         {/* <Legend /> */}
-
-        {/*
-        <Scatter
-          name="People"
-          data={processedData}
-          isAnimationActive={false}
-          shape="square" // even this doesn't work
-        >
-          <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
-        </Scatter>
-        */}
-
-        {/* {processedData.map((entry, index) => (
-          <Scatter
-            isAnimationActive={false}
-            key={index}
-            name={entry.name}
-            data={[entry]}
-            fill={getColorByType(entry.type)}
-            // shape={getShapeByType(entry.type)}
-            // shape={"square"}
-          >
-            <LabelList dataKey="name" position="top" style={{ fontSize: 12 }} />
-          </Scatter>
-        ))} */}
-
-        {/* <Customized
-          component={
-            <Polygon
-              points={myPoliticalRectangle}
-              fill="red"
-              stroke="#FFD700"
-              strokeWidth={3}
-            />
-          }
-        /> */}
 
         <ReferenceArea
           x1={myPoliticalEdges.x1}
