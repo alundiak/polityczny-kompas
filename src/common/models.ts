@@ -22,7 +22,9 @@ export interface PoliticalCompassChartProps {
   scattersIds: DataKind[];
 }
 
-export interface OneScatterProps {
+export interface LabeledCheckboxProps {
   scatterId: DataKind;
-  data: Person[];
+  isChecked: boolean;
+  onChangeHandler: (currentScatterId: DataKind) => void;
+  label: string;
 }

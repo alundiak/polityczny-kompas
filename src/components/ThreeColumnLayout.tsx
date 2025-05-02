@@ -1,17 +1,23 @@
 import React, { useState } from "react";
 
+import { DEFAULT_SCATTERS_IDS } from "../common/helpers";
+import { DataKind } from "../common/models";
+import {
+  mergedData,
+  mainData,
+  findSameCoordinates,
+  leftColumnData,
+  rightColumnData,
+} from "../common/helpers";
 import PoliticalCompassChart from "./PoliticalCompassChart";
-import data from "../data/getData";
-import { DEFAULT_SCATTERS_IDS, findSameCoordinates } from "./helpers";
-import { CompassData, DataKind } from "./models";
+import LabeledCheckbox from "./LabeledInput";
 
 import "./threeColumnLayout.css";
 
-findSameCoordinates(data as CompassData);
+findSameCoordinates(mergedData);
 
 const ThreeColumnLayout: React.FC = () => {
-  // Note. Renders twice.
-  // console.log("ThreeColumnLayout");
+  // Note. Renders twice because of StrictMode.
 
   const [scattersIds, setScattersIds] = useState<Set<DataKind>>(
     new Set(DEFAULT_SCATTERS_IDS)
@@ -29,80 +35,30 @@ const ThreeColumnLayout: React.FC = () => {
     });
   };
 
+  const mapperPredicate = (scatterId: DataKind) => {
+    return (
+      <LabeledCheckbox
+        key={`checkbox-for-${scatterId}`}
+        scatterId={scatterId}
+        isChecked={scattersIds.has(scatterId)}
+        onChangeHandler={() => toggleCheckbox(scatterId)}
+        label={scatterId}
+      />
+    );
+  };
+
   return (
     <div className="wrapper">
-      <div className="column">
-        <label>
-          <input
-            type="checkbox"
-            checked={scattersIds.has("america")}
-            onChange={() => {
-              toggleCheckbox("america");
-            }}
-          />
-          America
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={scattersIds.has("europe")}
-            onChange={() => {
-              toggleCheckbox("europe");
-            }}
-          />
-          Europe
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={scattersIds.has("ukraine")}
-            onChange={() => {
-              toggleCheckbox("ukraine");
-            }}
-          />
-          Ukraine
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={scattersIds.has("russia")}
-            onChange={() => {
-              toggleCheckbox("russia");
-            }}
-          />
-          russia
-        </label>
-      </div>
+      <div className="column left">{leftColumnData.map(mapperPredicate)}</div>
 
       <div className="centerColumn">
         <PoliticalCompassChart
-          data={data}
+          data={mainData}
           scattersIds={Array.from(scattersIds)}
         />
       </div>
 
-      <div className="column">
-        <label>
-          <input
-            type="checkbox"
-            checked={scattersIds.has("poland2025")}
-            onChange={() => {
-              toggleCheckbox("poland2025");
-            }}
-          />
-          Poland (2025)
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={scattersIds.has("polandOther")}
-            onChange={() => {
-              toggleCheckbox("polandOther");
-            }}
-          />
-          Poland (other)
-        </label>
-      </div>
+      <div className="column right">{rightColumnData.map(mapperPredicate)}</div>
     </div>
   );
 };

@@ -8,8 +8,6 @@ import {
   Scatter,
   LabelList,
   ReferenceLine,
-  // Polygon,
-  // Customized,
   ReferenceArea,
   // Legend,
 } from "recharts";
@@ -21,8 +19,8 @@ import {
   getDataPointStyleByType,
   getShapeByType,
   myPoliticalEdges,
-} from "./helpers";
-import { DataKind, PoliticalCompassChartProps } from "./models";
+} from "../common/helpers";
+import { DataKind, PoliticalCompassChartProps } from "../common/models";
 
 const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
   const mapper = (scatterId: DataKind) => {
