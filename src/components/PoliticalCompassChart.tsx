@@ -13,57 +13,15 @@ import {
   ReferenceArea,
   // Legend,
 } from "recharts";
-import data from "./data/getData";
-// import { SymbolType } from "recharts/types/util/types";
+import data from "../data/getData";
+import AxisLabels from "./AxisLabels";
+import { getColorByType, myPoliticalEdges } from "./helpers";
 
 interface Person {
   name: string;
   x: number;
   y: number;
 }
-
-const getColorByType = (type: string): string => {
-  switch (type) {
-    case "presidential-candidate":
-      // return "#8884d8"; // #FFD700 => Gold
-      return "blue";
-    case "polish-politician":
-      return "#32CD32"; // Lime Green
-    case "world-politician":
-      return "#1E90FF"; // Dodger Blue
-    default:
-      return "#8884d8"; // Default color
-  }
-};
-
-// const getShapeByType = (type: string): SymbolType => {
-//   switch (type) {
-//     case "presidential-candidate":
-//       return "circle" as SymbolType;
-//     case "polish-politician":
-//       return "square" as SymbolType;
-//     case "world-politician":
-//       return "diamond" as SymbolType;
-//     default:
-//       return "circle" as SymbolType;
-//   }
-// };
-
-// const myPoliticalRectangle = [
-//   { x: 2, y: 2 }, // I (Right-Authoritarian)
-//   { x: -2, y: 2 }, // II (Left-Authoritarian)
-//   { x: -2, y: -2 }, // III (Left-Libertarian)
-//   { x: 2, y: -2 }, // IV (Right-Libertarian)
-// ];
-
-const myPoliticalEdges = {
-  x1: 1, // I Right
-  y1: 1, // II Authoritarian
-  x2: -2, // III Left
-  y2: -3, // IV Libertarian
-};
-
-// const myPoliticalRectangle = "2,2 -2,2 -2,-2 2,-2";
 
 const PoliticalCompassChart: React.FC = () => {
   const [showPoland2025, setShowPoland2025] = useState(true);
@@ -215,67 +173,7 @@ const PoliticalCompassChart: React.FC = () => {
         />
       </ScatterChart>
 
-      {/* Axis labels */}
-
-      <div
-        style={{
-          position: "absolute",
-          top: "47.5%",
-          left: "25px",
-          transform: "translateY(-50%)",
-          fontWeight: "bold",
-          fontSize: "20px",
-          // color: "#1E90FF",
-        }}
-      >
-        {/* (on the left side of the chart) */}
-        Left
-      </div>
-
-      <div
-        style={{
-          position: "absolute",
-          top: "47.5%",
-          right: "-40px",
-          transform: "translateY(-50%)",
-          fontWeight: "bold",
-          fontSize: "20px",
-          // color: "#FF4500",
-        }}
-      >
-        {/* on the right side of the chart) */}
-        Right
-      </div>
-
-      <div
-        style={{
-          position: "absolute",
-          top: "0px",
-          left: "54.5%",
-          transform: "translateX(-50%)",
-          fontWeight: "bold",
-          fontSize: "20px",
-          // color: "#8B0000",
-        }}
-      >
-        {/* (on top side of the chart) */}
-        Authoritarianism
-      </div>
-
-      <div
-        style={{
-          position: "absolute",
-          bottom: "5px",
-          left: "54.5%",
-          transform: "translateX(-50%)",
-          fontWeight: "bold",
-          fontSize: "20px",
-          // color: "#32CD32",
-        }}
-      >
-        {/* (on bottom side of the chart) */}
-        Libertarianism
-      </div>
+      <AxisLabels />
     </div>
   );
 };

@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Napoleon",
+    "x": 1.5,
+    "y": 4
+  },
+  {
+    "name": "Hitler",
+    "x": 5,
+    "y": 5
+  },
+  {
+    "name": "Macron",
+    "x": -0.5,
+    "y": -0.5
+  },
+  {
+    "name": "Sunak",
+    "x": 2,
+    "y": 0.5
+  },
+  {
+    "name": "Baerbock",
+    "x": -2.5,
+    "y": -0.5
+  },
+  {
+    "name": "Kallas",
+    "x": 1,
+    "y": -1
+  },
+  {
+    "name": "Merkel",
+    "x": 1,
+    "y": -2
+  },
+  {
+    "name": "Meloni",
+    "x": 4,
+    "y": 2
+  },
+  {
+    "name": "Le Pen",
+    "x": 3.5,
+    "y": 2.5
+  },
+  {
+    "name": "Thatcher",
+    "x": 5,
+    "y": -0.5
+  }
+]

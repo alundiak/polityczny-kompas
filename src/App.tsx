@@ -1,11 +1,9 @@
 import "./App.css";
-import PoliticalCompassChart from "./PoliticalCompassChart";
-// import PoliticalCompass from "./PureCompass";
+import PoliticalCompassChart from "./components/PoliticalCompassChart";
 
 function App() {
   return (
     <>
-      {/* <PoliticalCompass /> */}
       <PoliticalCompassChart />
     </>
   );

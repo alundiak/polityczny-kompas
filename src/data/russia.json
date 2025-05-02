@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Lenin",
+    "x": -4,
+    "y": 3.5
+  },
+  {
+    "name": "Stalin",
+    "x": -5,
+    "y": 5
+  },
+  {
+    "name": "Gorbachov",
+    "x": -2.5,
+    "y": 2.5
+  },
+  {
+    "name": "Jelcyn",
+    "x": -1,
+    "y": 2
+  },
+  {
+    "name": "Putin",
+    "x": 2,
+    "y": 5
+  },
+  {
+    "name": "Machno",
+    "x": -5,
+    "y": -5
+  }
+]
