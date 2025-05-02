@@ -1,5 +1,7 @@
 // import { SymbolType } from "recharts/types/util/types";
 
+import { CompassData } from "./models";
+
 export const getColorByType = (type: string): string => {
   switch (type) {
     case "presidential-candidate":
@@ -42,3 +44,14 @@ export const myPoliticalEdges = {
 };
 
 // const myPoliticalRectangle = "2,2 -2,2 -2,-2 2,-2";
+
+export function findSameCoordinates(data: CompassData) {
+  Object.entries(data).forEach(([group, people]) => {
+    people.forEach((current, index, array) => {
+      const previous = array[index - 1];
+      if (previous && previous.x === current.x && previous.y === current.y) {
+        console.log(`Group: ${group}, Duplicate Person:`, current);
+      }
+    });
+  });
+}

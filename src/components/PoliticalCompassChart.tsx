@@ -16,22 +16,9 @@ import {
 
 import AxisLabels from "./AxisLabels";
 import { getColorByType, myPoliticalEdges } from "./helpers";
+import { PoliticalCompassChartProps } from "./models";
 
-interface Person {
-  name: string;
-  x: number;
-  y: number;
-}
-
-interface Props {
-  data: {
-    [key: string]: Person[];
-  };
-  showPoland2025: boolean;
-  showOtherPoland: boolean;
-}
-
-const PoliticalCompassChart: React.FC<Props> = (props) => {
+const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
   const { poland2025, polandOther, world, usa, europe, russia, ukraine } =
     props.data;
 

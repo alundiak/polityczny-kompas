@@ -3,8 +3,15 @@ import PoliticalCompassChart from "./PoliticalCompassChart";
 import data from "../data/getData";
 
 import "./threeColumnLayout.css";
+import { findSameCoordinates } from "./helpers";
+import { CompassData } from "./models";
+
+findSameCoordinates(data as CompassData);
 
 const ThreeColumnLayout: React.FC = () => {
+  // Note. Renders twice.
+  // console.log("ThreeColumnLayout");
+
   const [showPoland2025, setShowPoland2025] = useState(true);
   const [showOtherPoland, setShowOtherPoland] = useState(true);
 
