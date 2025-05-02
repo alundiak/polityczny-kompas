@@ -30,8 +30,23 @@
     "y": 4.5
   },
   {
+    "name": "Tsikhanouskaya",
+    "x": 0,
+    "y": -2
+  },
+  {
     "name": "Machno",
     "x": -5,
     "y": -5
+  },
+  {
+    "name": "Niemcow",
+    "x": 1,
+    "y": -2
+  },
+  {
+    "name": "Kasparow",
+    "x": 2,
+    "y": -3
   }
 ]

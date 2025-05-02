@@ -114,7 +114,7 @@ export const getShapeByType = (scatterId: DataKind): SymbolType => {
 export const getDataPointStyleByType = (scatterId: DataKind): CSSProperties => {
   switch (scatterId) {
     case "poland2025":
-      return { fontSize: 20 };
+      return { fontSize: 20, fill: "blue" };
 
     case "polandOther":
       return { fontSize: 12 };

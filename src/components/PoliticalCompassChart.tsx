@@ -39,6 +39,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
           dataKey="name"
           position="top"
           style={getDataPointStyleByType(scatterId)}
+          // formatter={() => "only-text-formatting"}
         />
       </Scatter>
     );

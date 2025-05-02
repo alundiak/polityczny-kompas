@@ -1,4 +1,5 @@
 .wrapper {
+  /* border: grey solid 1px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +24,7 @@
   }
 
   .centerColumn {
+    /* border: red solid 1px; */
     display: flex;
     justify-content: center;
     align-items: center;
