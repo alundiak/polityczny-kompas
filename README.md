@@ -11,9 +11,9 @@ Green rectangle is "my political views" area. Other dots represent political peo
 
 ![img-v2-poland](./images/img-v2-poland.png)
 
-And [here](https://alundiak.github.io/polityczny-kompas/politica.html) is previous, my initial very basic version using basic HTML/SVG.
-
 ![img-v2-other](./images/img-v2-other.png)
+
+And [here](https://alundiak.github.io/polityczny-kompas/politica.html) is previous, my initial very basic version using basic HTML/SVG.
 
 ## Reason/Goal
 

@@ -13,11 +13,19 @@ import PoliticalCompassChart from "./PoliticalCompassChart";
 import LabeledCheckbox from "./LabeledInput";
 
 import "./threeColumnLayout.css";
+import WarningMessage from "./WarningMessage";
 
-findSameCoordinates(mergedData);
+// findSameCoordinates(mergedData);
 
 const ThreeColumnLayout: React.FC = () => {
   // Note. Renders twice because of StrictMode.
+
+  // const [duplicates, setDuplicates] = useState<Person[]>([]);
+
+  // useEffect(() => {
+  const duplicateCoordinates = findSameCoordinates(mergedData);
+  //   setDuplicates(duplicateCoordinates); // Update the state with the duplicates
+  // }, [data]);
 
   const [scattersIds, setScattersIds] = useState<Set<DataKind>>(
     new Set(DEFAULT_SCATTERS_IDS)
@@ -59,6 +67,7 @@ const ThreeColumnLayout: React.FC = () => {
       </div>
 
       <div className="column right">{rightColumnData.map(mapperPredicate)}</div>
+      {duplicateCoordinates.length > 0 && <WarningMessage />}
     </div>
   );
 };

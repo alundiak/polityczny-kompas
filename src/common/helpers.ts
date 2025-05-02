@@ -42,11 +42,16 @@ export function findSameCoordinates(data: Person[]) {
     coordMap.get(key)!.push(person);
   });
 
+  const duplicates: Person[] = [];
+
   coordMap.forEach((people) => {
     if (people.length > 1) {
       console.log(`Duplicate coordinates for: `, people[0], people[1]);
+      duplicates.push(...people);
     }
   });
+
+  return duplicates;
 }
 
 export const leftColumnData: DataKind[] = [
