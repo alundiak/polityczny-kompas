@@ -46,3 +46,7 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 - https://github.com/greygatch/political-compass/
 - https://github.com/AUTOMATIC1111/llm-political-compass
 - https://github.com/experience-experiments/react-easy-chart DEPRECATED
+
+## Political Quizzes
+
+- https://cdw.edu.pl/kompas/kompas-pogladow/ ([mój wynik](https://cdw.edu.pl/kompas/kompas-pogladow/?res=24214452245123405444))
