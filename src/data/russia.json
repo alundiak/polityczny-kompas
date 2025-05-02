@@ -21,8 +21,13 @@
   },
   {
     "name": "Putin",
-    "x": 2,
+    "x": 3,
     "y": 5
+  },
+  {
+    "name": "Lukaszenka",
+    "x": 2.5,
+    "y": 4.5
   },
   {
     "name": "Machno",
