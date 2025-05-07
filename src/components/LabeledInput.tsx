@@ -5,13 +5,15 @@ import "./labeledInput.css";
 
 const LabeledCheckbox: React.FC<LabeledCheckboxProps> = (props) => {
   return (
-    <label>
+    <label className="flex items-center">
       <input
+        className="h-5 w-5"
         type="checkbox"
         name={props.scatterId}
         checked={props.isChecked}
         onChange={() => props.onChangeHandler(props.scatterId)}
       />
+      &nbsp;
       {getLabelFromKey(props.scatterId)}
     </label>
   );
