@@ -1,46 +1,46 @@
 [
   {
-    "name": "Jinping",
+    "lastName": "Jinping",
     "x": -4,
     "y": 4
   },
   {
-    "name": "al-Assad",
+    "lastName": "al-Assad",
     "x": -0.5,
     "y": 4.5
   },
   {
-    "name": "Husejn",
+    "lastName": "Husejn",
     "x": -1.5,
     "y": 4.5
   },
   {
-    "name": "Friedman",
+    "lastName": "Friedman",
     "x": 5,
     "y": 0
   },
   {
-    "name": "Chomsky",
+    "lastName": "Chomsky",
     "x": -5,
     "y": 0
   },
   {
-    "name": "Goldman",
+    "lastName": "Goldman",
     "x": -4,
     "y": -4
   },
   {
-    "name": "Rothbard",
+    "lastName": "Rothbard",
     "x": 5,
     "y": -5
   },
   {
-    "name": "Paul",
+    "lastName": "Paul",
     "x": 4,
     "y": -4
   },
   {
-    "name": "Snowden",
+    "lastName": "Snowden",
     "x": 0,
     "y": -5
   }

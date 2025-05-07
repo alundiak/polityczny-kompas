@@ -1,132 +1,143 @@
 [
   {
-    "name": "Mussolini",
-    "x": 4,
+    "lastName": "Hitler",
+    "x": 1,
     "y": 5
   },
   {
-    "name": "Marks",
+    "lastName": "Mussolini",
+    "x": 2,
+    "y": 5
+  },
+  {
+    "lastName": "Marks",
     "x": -5,
     "y": 3
   },
   {
-    "name": "Napoleon",
+    "lastName": "Napoleon",
     "x": 1.5,
     "y": 4.5
   },
   {
-    "name": "Hitler",
-    "x": 5,
-    "y": 5
-  },
-  {
-    "name": "Macron",
+    "lastName": "Macron",
     "x": -0.5,
     "y": -0.5
   },
   {
-    "name": "Sunak",
-    "x": 2,
+    "lastName": "Sunak",
+    "x": 2.5,
     "y": 0.5
   },
   {
-    "name": "Baerbock",
+    "lastName": "Baerbock",
     "x": -2.5,
     "y": -0.5
   },
   {
-    "name": "Kallas",
+    "firstName": "Sahra",
+    "lastName": "Wagenknecht",
+    "x": -2,
+    "y": 3
+  },
+  {
+    "lastName": "Kallas",
     "x": 1,
     "y": -1
   },
   {
-    "name": "Merkel",
+    "lastName": "Merkel",
     "x": 0.5,
-    "y": -1
+    "y": -0.5
   },
   {
-    "name": "Meloni",
-    "x": 3,
-    "y": 2.5
+    "lastName": "Meloni",
+    "x": 2.5,
+    "y": 2
   },
   {
-    "name": "Le Pen",
+    "lastName": "Le Pen",
     "x": 3.5,
     "y": 2.5
   },
   {
-    "name": "Thatcher",
+    "lastName": "Thatcher",
     "x": 5,
     "y": -0.5
   },
   {
-    "name": "Čaputová",
-    "x": -2,
-    "y": -1
-  },
-  {
-    "name": "Šimečka",
-    "x": -2.5,
-    "y": -1.5
-  },
-  {
-    "name": "Fico",
-    "x": 1,
-    "y": 2.5
-  },
-  {
-    "name": "Pellegrini",
-    "x": 0,
-    "y": 0
-  },
-  {
-    "name": "Heger",
-    "x": 0.5,
-    "y": 0.5
-  },
-  {
-    "name": "Sanna Marin",
+    "lastName": "Sanna Marin",
     "x": -1.5,
     "y": -0.5
   },
   {
-    "name": "Nausėda",
+    "lastName": "Nausėda",
     "x": 0.5,
     "y": -1.5
   },
   {
-    "name": "Stocker",
+    "lastName": "Stocker",
     "x": 1,
     "y": 0
   },
   {
-    "name": "Nehammer",
+    "lastName": "Nehammer",
     "x": 2,
     "y": 1
   },
   {
-    "name": "Stubb",
+    "lastName": "Stubb",
     "x": 1.5,
     "y": 0.5
   },
   {
-    "name": "Novák",
+    "lastName": "Čaputová",
+    "x": -2,
+    "y": -1
+  },
+  {
+    "lastName": "Šimečka",
+    "x": -2.5,
+    "y": -1.5
+  },
+  {
+    "lastName": "Fico",
     "x": 1.5,
     "y": 3.5
   },
   {
-    "name": "Orbán",
+    "lastName": "Pellegrini",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "lastName": "Heger",
+    "x": 0.5,
+    "y": 0.5
+  },
+  {
+    "lastName": "Novák",
+    "x": 1,
+    "y": 3
+  },
+  {
+    "lastName": "Orbán",
     "x": 3.5,
     "y": 3.5
   },
   {
-    "name": "Szentkirályi",
+    "lastName": "Szentkirályi",
     "x": 2.5,
     "y": 3.5
   },
   {
-    "name": "Magyar",
-    "x": 1.5,
-    "y": 1.5
+    "lastName": "Magyar",
+    "x": 1,
+    "y": 2
+  },
+  {
+    "lastName": "Vučić",
+    "x": 2,
+    "y": 2.5
   }
 ]

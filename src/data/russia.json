@@ -1,51 +1,51 @@
 [
   {
-    "name": "Lenin",
+    "lastName": "Lenin",
     "x": -4,
     "y": 3.5
   },
   {
-    "name": "Stalin",
+    "lastName": "Stalin",
     "x": -5,
     "y": 5
   },
   {
-    "name": "Gorbachov",
+    "lastName": "Gorbachov",
     "x": -2.5,
     "y": 2.5
   },
   {
-    "name": "Jelcyn",
+    "lastName": "Jelcyn",
     "x": -1,
     "y": 2
   },
   {
-    "name": "Putin",
+    "lastName": "Putin",
     "x": 3,
-    "y": 5
-  },
-  {
-    "name": "Lukaszenka",
-    "x": 2.5,
     "y": 4.5
   },
   {
-    "name": "Tsikhanouskaya",
+    "lastName": "Lukaszenka",
+    "x": 1,
+    "y": 4
+  },
+  {
+    "lastName": "Tsikhanouskaya",
     "x": 0,
     "y": -2
   },
   {
-    "name": "Machno",
+    "lastName": "Machno",
     "x": -5,
     "y": -5
   },
   {
-    "name": "Niemcow",
+    "lastName": "Niemcow",
     "x": 1,
-    "y": -2
+    "y": -2.5
   },
   {
-    "name": "Kasparow",
+    "lastName": "Kasparow",
     "x": 2,
     "y": -3
   }

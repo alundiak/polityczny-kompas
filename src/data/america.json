@@ -1,66 +1,66 @@
 [
   {
-    "name": "Trudeau",
+    "lastName": "Trudeau",
     "x": -2.5,
     "y": 1.5
   },
   {
-    "name": "Trump",
+    "lastName": "Trump",
     "x": 3.5,
     "y": 1.5
   },
   {
-    "name": "Musk",
+    "lastName": "Musk",
     "x": 4,
     "y": -2
   },
   {
-    "name": "AOC",
+    "lastName": "AOC",
     "x": -4,
     "y": -3
   },
   {
-    "name": "Sanders",
+    "lastName": "Sanders",
     "x": -4,
     "y": -2.5
   },
   {
-    "name": "Reagan",
+    "lastName": "Reagan",
     "x": 5,
     "y": 0.5
   },
   {
-    "name": "Obama",
+    "lastName": "Obama",
     "x": -2,
     "y": 1
   },
   {
-    "name": "Biden",
+    "lastName": "Biden",
     "x": -1.5,
     "y": 1.5
   },
   {
-    "name": "Clinton",
+    "lastName": "Clinton",
     "x": -1,
     "y": 1
   },
   {
-    "name": "Milei",
+    "lastName": "Milei",
     "x": 5,
     "y": -4
   },
   {
-    "name": "Pinochet",
+    "lastName": "Pinochet",
     "x": 4,
     "y": 4.5
   },
   {
-    "name": "Castro",
+    "lastName": "Castro",
     "x": -4.5,
     "y": 4.5
   },
   {
-    "name": "Guevara",
+    "lastName": "Guevara",
     "x": -4,
     "y": 3
   }

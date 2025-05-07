@@ -1,6 +1,7 @@
 export type DataKind =
   | "poland2025"
   | "polandOther"
+  | "world"
   | "america"
   | "europe"
   | "russia"
@@ -8,7 +9,8 @@ export type DataKind =
   | "world";
 
 export interface Person {
-  name: string;
+  firstName?: string;
+  lastName: string;
   x: number;
   y: number;
 }

@@ -34,7 +34,7 @@ const AxisLabels: React.FC = () => {
       <div
         style={{
           position: "absolute",
-          top: "0px",
+          top: "-10px",
           left: "54.5%",
           transform: "translateX(-50%)",
           fontWeight: "bold",

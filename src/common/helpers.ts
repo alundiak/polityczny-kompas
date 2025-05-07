@@ -55,6 +55,7 @@ export function findSameCoordinates(data: Person[]) {
 }
 
 export const leftColumnData: DataKind[] = [
+  "world",
   "america",
   "europe",
   "ukraine",
@@ -72,6 +73,9 @@ export const getLabelFromKey = (scatterId: DataKind): string => {
 
     case "polandOther":
       return "Poland (other)";
+
+    case "world":
+      return "World";
 
     case "america":
       return "America";
@@ -117,10 +121,10 @@ export const getDataPointStyleByType = (scatterId: DataKind): CSSProperties => {
       return { fontSize: 20, fill: "blue" };
 
     case "polandOther":
-      return { fontSize: 12 };
+      return { fontSize: 14 };
 
     default:
-      return { fontSize: 12 };
+      return { fontSize: 14 };
   }
 };
 

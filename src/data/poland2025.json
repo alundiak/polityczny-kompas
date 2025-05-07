@@ -1,67 +1,67 @@
 [
   {
-    "name": "Zandberg",
+    "lastName": "Zandberg",
     "x": -3,
     "y": -2
   },
   {
-    "name": "Senyszyn",
+    "lastName": "Senyszyn",
     "x": -4,
     "y": 1.5
   },
   {
-    "name": "Biejat",
+    "lastName": "Biejat",
     "x": -3.5,
     "y": -1.5
   },
   {
-    "name": "Trzaskowski",
+    "lastName": "Trzaskowski",
     "x": -1,
     "y": -1
   },
   {
-    "name": "Hołownia",
+    "lastName": "Hołownia",
     "x": 1,
     "y": 1
   },
   {
-    "name": "Nawrocki",
-    "x": 2,
+    "lastName": "Nawrocki",
+    "x": 1.5,
     "y": 2.5
   },
   {
-    "name": "Jakubiak",
+    "lastName": "Jakubiak",
     "x": 3,
     "y": 2
   },
   {
-    "name": "Woch",
+    "lastName": "Woch",
     "x": 0,
     "y": 2
   },
   {
-    "name": "Bartoszewicz",
+    "lastName": "Bartoszewicz",
     "x": 2,
     "y": 0
   },
   {
-    "name": "Stanowski",
+    "lastName": "Stanowski",
     "x": 3.6,
     "y": 0.5
   },
   {
-    "name": "Maciak",
+    "lastName": "Maciak",
     "x": 3,
     "y": 3
   },
   {
-    "name": "Mentzen",
+    "lastName": "Mentzen",
     "x": 4,
-    "y": -1
+    "y": -1.5
   },
   {
-    "name": "Braun",
-    "x": 4,
+    "lastName": "Braun",
+    "x": 4.5,
     "y": 3
   }
 ]

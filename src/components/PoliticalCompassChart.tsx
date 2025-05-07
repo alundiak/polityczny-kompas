@@ -36,7 +36,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
       >
         <LabelList
           fill={getDataPointFillByType(scatterId)}
-          dataKey="name"
+          dataKey="lastName"
           position="top"
           style={getDataPointStyleByType(scatterId)}
           // formatter={() => "only-text-formatting"}

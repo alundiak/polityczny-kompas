@@ -1,76 +1,76 @@
 [
   {
-    "name": "Kaczyński",
+    "lastName": "Kaczyński",
     "x": 2,
     "y": 3
   },
   {
-    "name": "Duda",
+    "lastName": "Duda",
     "x": 2,
     "y": 2
   },
   {
-    "name": "Morawiecki",
+    "lastName": "Morawiecki",
     "x": 2.5,
     "y": 1.5
   },
   {
-    "name": "Kosiniak-Kamysz",
+    "lastName": "Kosiniak-Kamysz",
     "x": 1,
     "y": 1.5
   },
   {
-    "name": "Kukiz",
+    "lastName": "Kukiz",
     "x": 2,
     "y": -1
   },
   {
-    "name": "Korwin-Mikke",
+    "lastName": "Korwin-Mikke",
     "x": 4.5,
     "y": -4.5
   },
   {
-    "name": "Winnicki",
+    "lastName": "Winnicki",
     "x": 3.5,
-    "y": -3.5
+    "y": -0.5
   },
   {
-    "name": "Bosak",
+    "lastName": "Bosak",
     "x": 3,
-    "y": -3
+    "y": -1
   },
   {
-    "name": "Dziambor",
+    "lastName": "Dziambor",
     "x": 2,
     "y": -2
   },
   {
-    "name": "Wałęsa",
+    "lastName": "Wałęsa",
     "x": -0.5,
     "y": -1.5
   },
   {
-    "name": "Kwaśniewski",
+    "lastName": "Kwaśniewski",
     "x": -3,
     "y": 1
   },
   {
-    "name": "Komorowski",
+    "lastName": "Komorowski",
     "x": -1,
     "y": 0
   },
   {
-    "name": "Tusk",
+    "lastName": "Tusk",
     "x": -1,
     "y": -0.5
   },
   {
-    "name": "Jachira",
+    "lastName": "Jachira",
     "x": -3,
     "y": -1
   },
   {
-    "name": "Biedroń",
+    "lastName": "Biedroń",
     "x": -3,
     "y": -2.5
   }
