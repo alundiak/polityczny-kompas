@@ -3,5 +3,11 @@
     "lastName": "Zelenskyy",
     "x": 1.5,
     "y": -0.5
+  },
+  {
+    "firstName": "Hennadiy",
+    "lastName": "Balashov",
+    "x": 5,
+    "y": -4.5
   }
 ]
