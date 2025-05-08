@@ -35,6 +35,7 @@
     "y": -2
   },
   {
+    "firstName": "Nestor",
     "lastName": "Machno",
     "x": -5,
     "y": -5
@@ -48,5 +49,17 @@
     "lastName": "Kasparow",
     "x": 2,
     "y": -3
+  },
+  {
+    "firstName": "Pavel",
+    "lastName": "Durov",
+    "x": 3,
+    "y": -4
+  },
+  {
+    "firstName": "Andrey",
+    "lastName": "Illarionov",
+    "x": 3.3,
+    "y": -3.5
   }
 ]
