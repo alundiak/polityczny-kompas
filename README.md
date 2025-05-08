@@ -39,6 +39,7 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 - ReCharts (`<ScatterChart>`, `<CartesianGrid>`, `<ReferenceLine>`, `<ReferenceArea>` etc.)
   - https://recharts.org/en-US/examples/SimpleScatterChart
   - https://codesandbox.io/p/sandbox/recharts-referencearea-with-a-custom-shape-iwp2j
+- [TailwindCSS](https://tailwindcss.com)
 
 ## Kinda inspired by
 
@@ -50,3 +51,4 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 ## Political Quizzes
 
 - https://cdw.edu.pl/kompas/kompas-pogladow/ ([mój wynik](https://cdw.edu.pl/kompas/kompas-pogladow/?res=24214452245123405444))
+- https://latarnikwyborczy.pl/ankieta ([mój wynik](https://latarnikwyborczy.pl/s/32f02ef8db))

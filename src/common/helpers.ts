@@ -146,7 +146,7 @@ export const getDataPointFillByType = (scatterId: DataKind): string => {
 // ];
 
 export const myPoliticalEdges = {
-  x1: 1, // I Right
+  x1: 1.5, // I Right
   y1: 1, // II Authoritarian
   x2: -2, // III Left
   y2: -3, // IV Libertarian

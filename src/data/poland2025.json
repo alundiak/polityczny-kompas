@@ -26,13 +26,8 @@
   },
   {
     "lastName": "Nawrocki",
-    "x": 1.5,
-    "y": 2.5
-  },
-  {
-    "lastName": "Jakubiak",
-    "x": 3,
-    "y": 2
+    "x": 1.2,
+    "y": 2.2
   },
   {
     "lastName": "Woch",
@@ -50,9 +45,14 @@
     "y": 0.5
   },
   {
+    "lastName": "Jakubiak",
+    "x": 3,
+    "y": 2.1
+  },
+  {
     "lastName": "Maciak",
     "x": 3,
-    "y": 3
+    "y": 2.8
   },
   {
     "lastName": "Mentzen",
