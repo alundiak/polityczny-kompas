@@ -69,10 +69,10 @@ export const DEFAULT_SCATTERS_IDS: DataKind[] = ["poland2025", "polandOther"];
 export const getLabelFromKey = (scatterId: DataKind): string => {
   switch (scatterId) {
     case "poland2025":
-      return "Poland (2025)";
+      return "🇵🇱Poland (2025)";
 
     case "polandOther":
-      return "Poland (other)";
+      return "🇵🇱Poland (other)";
 
     case "world":
       return "World";
@@ -84,7 +84,10 @@ export const getLabelFromKey = (scatterId: DataKind): string => {
       return "Europe";
 
     case "ukraine":
-      return "Ukraine";
+      return "🇺🇦Ukraine";
+
+    case "russia":
+      return "🇷🇺russia";
 
     default:
       return scatterId;

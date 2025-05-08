@@ -13,35 +13,5 @@
     "lastName": "Husejn",
     "x": -1.5,
     "y": 4.5
-  },
-  {
-    "lastName": "Friedman",
-    "x": 5,
-    "y": 0
-  },
-  {
-    "lastName": "Chomsky",
-    "x": -5,
-    "y": 0
-  },
-  {
-    "lastName": "Goldman",
-    "x": -4,
-    "y": -4
-  },
-  {
-    "lastName": "Rothbard",
-    "x": 5,
-    "y": -5
-  },
-  {
-    "lastName": "Paul",
-    "x": 4,
-    "y": -4
-  },
-  {
-    "lastName": "Snowden",
-    "x": 0,
-    "y": -5
   }
 ]

@@ -15,6 +15,36 @@
     "y": -2
   },
   {
+    "firstName": "Milton?",
+    "lastName": "Friedman",
+    "x": 2,
+    "y": -5
+  },
+  {
+    "firstName": "Murray?",
+    "lastName": "Rothbard",
+    "x": 5,
+    "y": -5
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Chomsky",
+    "x": -5,
+    "y": 0
+  },
+  {
+    "firstName": "Ron",
+    "lastName": "Paul",
+    "x": 4,
+    "y": -4
+  },
+  {
+    "firstName": "Edward",
+    "lastName": "Snowden",
+    "x": 1,
+    "y": -4.5
+  },
+  {
     "lastName": "AOC",
     "x": -4,
     "y": -3
@@ -30,6 +60,16 @@
     "y": 0.5
   },
   {
+    "lastName": "Clinton",
+    "x": -1,
+    "y": 1
+  },
+  {
+    "lastName": "Milei",
+    "x": 5,
+    "y": -4
+  },
+  {
     "lastName": "Obama",
     "x": -2,
     "y": 1
@@ -40,14 +80,10 @@
     "y": 1.5
   },
   {
-    "lastName": "Clinton",
-    "x": -1,
-    "y": 1
-  },
-  {
-    "lastName": "Milei",
-    "x": 5,
-    "y": -4
+    "firstName": "Kamala",
+    "lastName": "Harris",
+    "x": -2.2,
+    "y": -0.6
   },
   {
     "lastName": "Pinochet",
