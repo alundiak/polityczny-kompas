@@ -58,3 +58,7 @@ export default tseslint.config({
 Decided to use approach with `vite` => [Install TailwindCSS](https://tailwindcss.com/docs/installation/using-vite)
 
 But when some CSS feature will be needed, MAY be needed to re0think using `postcss` (+postcss.config.js) and `autoprefixer` (if custom Safari and Mozilla CSS classes needed).
+
+## Code Optimization
+
+Note that after installing `rollup-plugin-visualizer`, while running `npm run build`, generates `stats.html` locally which shows chunks after-split state

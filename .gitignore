@@ -219,3 +219,6 @@ build
 *.sw?
 
 temp
+
+# `rollup-plugin-visualizer` related
+stats.html
