@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Margaret",
+    "lastName": "Thatcher🇬🇧",
+    "x": 5,
+    "y": -0.5
+  },
+  {
+    "firstName": "Boris",
+    "lastName": "Johnson🇬🇧",
+    "x": 2.5,
+    "y": 1.3
+  },
+  {
+    "firstName": "Rishi",
+    "lastName": "Sunak🇬🇧",
+    "x": 3,
+    "y": 1
+  },
+  {
+    "firstName": "Keir",
+    "lastName": "Starmer🇬🇧",
+    "x": -1.5,
+    "y": -1.5
+  }
+]

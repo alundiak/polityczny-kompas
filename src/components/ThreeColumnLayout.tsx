@@ -60,7 +60,9 @@ const ThreeColumnLayout: React.FC = () => {
       </div>
 
       <div className="column right">{rightColumnData.map(mapperPredicate)}</div>
-      {duplicateCoordinates.length > 0 && <WarningMessage />}
+      {duplicateCoordinates.length > 0 && (
+        <WarningMessage duplicateCoordinates={duplicateCoordinates} />
+      )}
     </div>
   );
 };

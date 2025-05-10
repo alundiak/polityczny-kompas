@@ -48,34 +48,21 @@
     "y": 5
   },
   {
+    "lastName": "Meloni🇮🇹",
+    "x": 2.5,
+    "y": 2
+  },
+  {
+    "firstName": "Mario",
+    "lastName": "Draghi🇮🇹",
+    "x": 1,
+    "y": -2.1
+  },
+  {
     "firstName": "Karl",
     "lastName": "Marks🇩🇪",
     "x": -5,
     "y": 3
-  },
-  {
-    "firstName": "Margaret",
-    "lastName": "Thatcher🇬🇧",
-    "x": 5,
-    "y": -0.5
-  },
-  {
-    "firstName": "Boris",
-    "lastName": "Johnson🇬🇧",
-    "x": 2.5,
-    "y": 1.3
-  },
-  {
-    "firstName": "Rishi",
-    "lastName": "Sunak🇬🇧",
-    "x": 3,
-    "y": 1
-  },
-  {
-    "firstName": "Keir",
-    "lastName": "Starmer🇬🇧",
-    "x": -1.5,
-    "y": -1.5
   },
   {
     "lastName": "Baerbock🇩🇪",
@@ -101,33 +88,10 @@
     "y": 2
   },
   {
-    "firstName": "Kaja",
-    "lastName": "Kallas🇪🇪",
-    "x": 1,
-    "y": -1
-  },
-  {
     "firstName": "Angela",
     "lastName": "Merkel🇩🇪",
     "x": 1.5,
     "y": 1.1
-  },
-  {
-    "lastName": "Meloni🇮🇹",
-    "x": 2.5,
-    "y": 2
-  },
-  {
-    "firstName": "Sanna",
-    "lastName": "Marin🇫🇮",
-    "x": -1.5,
-    "y": -0.5
-  },
-  {
-    "firstName": "Gitanas",
-    "lastName": "Nausėda🇱🇹",
-    "x": 0.6,
-    "y": -1.5
   },
   {
     "firstName": "Christian",
@@ -142,12 +106,6 @@
     "y": 1.5
   },
   {
-    "firstName": "Aleksandr",
-    "lastName": "Stubb🇫🇮",
-    "x": 1.5,
-    "y": 0.5
-  },
-  {
     "firstName": "Petr",
     "lastName": "Pavel🇨🇿",
     "x": 1,
@@ -157,7 +115,7 @@
     "firstName": "Petr",
     "lastName": "Fiala🇨🇿",
     "x": 2.5,
-    "y": -1.0
+    "y": -0.9
   },
   {
     "firstName": "Zuzana",

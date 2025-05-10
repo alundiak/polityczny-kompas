@@ -9,9 +9,11 @@ Political compass to help my understand my political views:
 
 Green rectangle is "my political views" area. Other dots represent political people I somehow know.
 
-![img-v2-poland](./images/img-v2-poland.png)
+![v2-poland](./images/v2-poland.png)
 
-![img-v2-other](./images/img-v2-other.png)
+![v2-other-1](./images/v2-other-1.png)
+![v2-other-2](./images/v2-other-2.png)
+![v2-other-all](./images/v2-other-all.png)
 
 And [here](https://alundiak.github.io/polityczny-kompas/politica.html) is previous, my initial very basic version using basic HTML/SVG.
 

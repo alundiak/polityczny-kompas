@@ -8,7 +8,7 @@
   {
     "firstName": "Andrzej",
     "lastName": "Duda",
-    "x": 2,
+    "x": 1.8,
     "y": 2
   },
   {
@@ -26,8 +26,8 @@
   {
     "firstName": "Paweł",
     "lastName": "Kukiz",
-    "x": 2,
-    "y": -1
+    "x": 2.5,
+    "y": -0.5
   },
   {
     "firstName": "Janusz",
@@ -39,7 +39,7 @@
     "firstName": "Robert",
     "lastName": "Winnicki",
     "x": 3.5,
-    "y": -0.5
+    "y": -0.7
   },
   {
     "firstName": "Krzysztof",
@@ -50,8 +50,8 @@
   {
     "firstName": "Artur",
     "lastName": "Dziambor",
-    "x": 2,
-    "y": -2
+    "x": 1.8,
+    "y": -1.2
   },
   {
     "firstName": "Lech",

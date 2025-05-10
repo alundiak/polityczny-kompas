@@ -1,0 +1,44 @@
+[
+  {
+    "firstName": "Jonas Gahr",
+    "lastName": "Støre🇳🇴",
+    "x": -2.5,
+    "y": -2.2
+  },
+  {
+    "firstName": "Ulf",
+    "lastName": "Kristersson🇸🇪",
+    "x": 2.7,
+    "y": -2.1
+  },
+  {
+    "firstName": "Magdalena",
+    "lastName": "Andersson🇸🇪",
+    "x": -2.1,
+    "y": -2.9
+  },
+  {
+    "firstName": "Jimmie",
+    "lastName": "Åkesson🇸🇪",
+    "x": 3.6,
+    "y": 2.6
+  },
+  {
+    "firstName": "Mette",
+    "lastName": "Frederiksen🇩🇰",
+    "x": -2.5,
+    "y": -3.3
+  },
+  {
+    "firstName": "Sanna",
+    "lastName": "Marin🇫🇮",
+    "x": -2,
+    "y": -2.5
+  },
+  {
+    "firstName": "Aleksandr",
+    "lastName": "Stubb🇫🇮",
+    "x": 2.1,
+    "y": -2.3
+  }
+]

@@ -3,6 +3,9 @@ export type DataKind =
   | "polandOther"
   | "world"
   | "america"
+  | "uk"
+  | "scandinavia"
+  | "baltics"
   | "europe"
   | "russia"
   | "ukraine"
@@ -29,4 +32,8 @@ export interface LabeledCheckboxProps {
   isChecked: boolean;
   onChangeHandler: (currentScatterId: DataKind) => void;
   label: string;
+}
+
+export interface WarningMessageProps {
+  duplicateCoordinates: Person[];
 }

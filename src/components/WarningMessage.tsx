@@ -1,23 +1,27 @@
 import { useState, useEffect } from "react";
+import { WarningMessageProps } from "../common/models";
 
 import "./warningMessage.css";
 
-const WarningMessage = () => {
+const WarningMessage = (props: WarningMessageProps) => {
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(false);
-    }, 5000); // 5 seconds
+    }, 10000); // 10 seconds
 
     return () => clearTimeout(timer);
   }, []);
 
+  const list = props.duplicateCoordinates
+    ?.map((item) => item.lastName)
+    .toString();
+
   return (
     visible && (
       <div className="warning">
-        <span>⚠️</span>
-        There are People with same political coordinates. Review your data.
+        <span>⚠️</span>People with same political coordinates: {list}
       </div>
     )
   );

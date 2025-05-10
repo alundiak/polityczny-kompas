@@ -5,33 +5,31 @@ import poland2025 from "../data/poland2025.json";
 import polandOther from "../data/polandOther.json";
 import world from "../data/world.json";
 import america from "../data/america.json";
+import uk from "../data/uk.json";
+import scandinavia from "../data/scandinavia.json";
+import baltics from "../data/baltics.json";
 import europe from "../data/europe.json";
 import ukraine from "../data/ukraine.json";
 import russia from "../data/russia.json";
 
-import { DataKind, Person } from "./models";
+import { CompassData, DataKind, Person } from "./models";
 
-export const mergedData = [
-  ...poland2025,
-  ...polandOther,
-  ...world,
-  ...america,
-  ...europe,
-  ...russia,
-  ...ukraine,
-];
-
-export const mainData = {
+export const mainData: CompassData = {
   poland2025,
   polandOther,
   world,
   america,
+  uk,
+  scandinavia,
+  baltics,
   europe,
   russia,
   ukraine,
 };
 
-export function findSameCoordinates(data: Person[]) {
+export const mergedData: Person[] = Object.values(mainData).flat();
+
+export function findSameCoordinates(data: Person[]): Person[] {
   const coordMap = new Map<string, Person[]>();
 
   data.forEach((person) => {
@@ -57,6 +55,9 @@ export function findSameCoordinates(data: Person[]) {
 export const leftColumnData: DataKind[] = [
   "world",
   "america",
+  "uk",
+  "scandinavia",
+  "baltics",
   "europe",
   "ukraine",
   "russia",
@@ -79,6 +80,15 @@ export const getLabelFromKey = (scatterId: DataKind): string => {
 
     case "america":
       return "America";
+
+    case "scandinavia":
+      return "Scandinavia";
+
+    case "baltics":
+      return "Baltics";
+
+    case "uk":
+      return "UK";
 
     case "europe":
       return "Europe";
