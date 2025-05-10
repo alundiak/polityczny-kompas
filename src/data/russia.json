@@ -1,38 +1,45 @@
 [
   {
+    "firstName": "Vladimir",
     "lastName": "Lenin",
     "x": -4,
     "y": 3.5
   },
   {
+    "firstName": "Josip",
     "lastName": "Stalin",
     "x": -5,
     "y": 5
   },
   {
+    "firstName": "Mikhail",
     "lastName": "Gorbachov",
     "x": -2.5,
     "y": 2.5
   },
   {
+    "firstName": "Boris",
     "lastName": "Jelcyn",
     "x": -1,
     "y": 2
   },
   {
+    "firstName": "vladimir",
     "lastName": "Putin",
     "x": 3.3,
     "y": 4.6
   },
   {
-    "lastName": "Lukaszenka",
+    "firstName": "Alaksandr",
+    "lastName": "Łukaszenka🇧🇾",
     "x": 1,
     "y": 4
   },
   {
-    "lastName": "Tsikhanouskaya",
+    "firstName": "Sviatlana",
+    "lastName": "Tsikhanouskaya🇧🇾",
     "x": 0,
-    "y": -2
+    "y": -1.9
   },
   {
     "firstName": "Nestor",
@@ -41,11 +48,13 @@
     "y": -5
   },
   {
+    "firstName": "Boris",
     "lastName": "Niemcow",
     "x": 1,
     "y": -2.5
   },
   {
+    "firstName": "Garry",
     "lastName": "Kasparow",
     "x": 2,
     "y": -3

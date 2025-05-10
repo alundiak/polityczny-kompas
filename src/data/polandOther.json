@@ -1,75 +1,90 @@
 [
   {
+    "firstName": "Jarosław",
     "lastName": "Kaczyński",
     "x": 2,
     "y": 3
   },
   {
+    "firstName": "Andrzej",
     "lastName": "Duda",
     "x": 2,
     "y": 2
   },
   {
+    "firstName": "Mateusz",
     "lastName": "Morawiecki",
     "x": 2.5,
     "y": 1.5
   },
   {
+    "firstName": "Władysław",
     "lastName": "Kosiniak-Kamysz",
     "x": 1,
     "y": 1.5
   },
   {
+    "firstName": "Paweł",
     "lastName": "Kukiz",
     "x": 2,
     "y": -1
   },
   {
+    "firstName": "Janusz",
     "lastName": "Korwin-Mikke",
     "x": 4.5,
     "y": -3.5
   },
   {
+    "firstName": "Robert",
     "lastName": "Winnicki",
     "x": 3.5,
     "y": -0.5
   },
   {
+    "firstName": "Krzysztof",
     "lastName": "Bosak",
     "x": 3,
     "y": -1
   },
   {
+    "firstName": "Artur",
     "lastName": "Dziambor",
     "x": 2,
     "y": -2
   },
   {
+    "firstName": "Lech",
     "lastName": "Wałęsa",
     "x": -0.5,
     "y": -1.5
   },
   {
+    "firstName": "Aleksander",
     "lastName": "Kwaśniewski",
     "x": -3,
     "y": 1
   },
   {
+    "firstName": "Bronisław",
     "lastName": "Komorowski",
     "x": -1,
     "y": 0
   },
   {
+    "firstName": "Donald",
     "lastName": "Tusk",
     "x": -1,
     "y": -0.6
   },
   {
+    "firstName": "Klaudia",
     "lastName": "Jachira",
     "x": -3,
     "y": -1
   },
   {
+    "firstName": "Robert",
     "lastName": "Biedroń",
     "x": -3,
     "y": -2.5

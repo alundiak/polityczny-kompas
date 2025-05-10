@@ -1,65 +1,78 @@
 [
   {
+    "firstName": "Adrian",
     "lastName": "Zandberg",
     "x": -3,
     "y": -2
   },
   {
+    "firstName": "Joanna",
     "lastName": "Senyszyn",
     "x": -4,
     "y": 1.5
   },
   {
+    "firstName": "Magdalena",
     "lastName": "Biejat",
     "x": -3.5,
     "y": -1.5
   },
   {
+    "firstName": "Rafał",
     "lastName": "Trzaskowski",
     "x": -1,
     "y": -1
   },
   {
+    "firstName": "Szymon",
     "lastName": "Hołownia",
     "x": 1,
     "y": 1
   },
   {
+    "firstName": "Karol",
     "lastName": "Nawrocki",
     "x": 1.2,
     "y": 2.2
   },
   {
+    "firstName": "Marek Marian",
     "lastName": "Woch",
     "x": 0,
     "y": 2
   },
   {
+    "firstName": "Artur",
     "lastName": "Bartoszewicz",
     "x": 2,
     "y": 0
   },
   {
+    "firstName": "Krzysztof",
     "lastName": "Stanowski",
     "x": 3.6,
     "y": 0.5
   },
   {
+    "firstName": "Marek",
     "lastName": "Jakubiak",
     "x": 3,
-    "y": 2.1
+    "y": 2.4
   },
   {
+    "firstName": "Maciej",
     "lastName": "Maciak",
     "x": 3,
-    "y": 2.8
+    "y": 2.9
   },
   {
+    "firstName": "Sławomir",
     "lastName": "Mentzen",
     "x": 4,
     "y": -1.5
   },
   {
+    "firstName": "Grzegorz",
     "lastName": "Braun",
     "x": 4.5,
     "y": 3
