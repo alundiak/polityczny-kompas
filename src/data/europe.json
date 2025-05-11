@@ -122,8 +122,8 @@
     "firstName": "Friedrich",
     "lastName": "Merz",
     "flag": "🇩🇪",
-    "x": 3,
-    "y": 2
+    "x": 2.1,
+    "y": 1.2
   },
   {
     "firstName": "Angela",
@@ -178,7 +178,7 @@
     "firstName": "Robert",
     "lastName": "Fico",
     "flag": "🇸🇰",
-    "x": 1.4,
+    "x": -0.5,
     "y": 3.5
   },
   {
@@ -200,7 +200,7 @@
     "lastName": "Novák",
     "flag": "🇭🇺",
     "x": 1,
-    "y": 3
+    "y": 2.8
   },
   {
     "firstName": "Viktor",
@@ -213,28 +213,28 @@
     "firstName": "Aleksandra",
     "lastName": "Szentkirályi",
     "flag": "🇭🇺",
-    "x": 2.5,
+    "x": 2.4,
     "y": 3.4
   },
   {
     "firstName": "Péter",
     "lastName": "Magyar",
     "flag": "🇭🇺",
-    "x": 1,
-    "y": 2
+    "x": 0.9,
+    "y": 1.8
   },
   {
     "firstName": "Aleksandr",
     "lastName": "Vučić",
     "flag": "🇷🇸",
-    "x": 2,
-    "y": 2.5
+    "x": 1,
+    "y": 3.5
   },
   {
     "firstName": "Slobodan",
     "lastName": "Milošević",
     "flag": "*🇷🇸",
-    "x": -1.5,
+    "x": -1,
     "y": 4
   }
 ]

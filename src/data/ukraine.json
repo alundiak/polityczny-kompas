@@ -8,7 +8,7 @@
   {
     "firstName": "Petro",
     "lastName": "Symonenko",
-    "x": -4.5,
+    "x": -3.5,
     "y": 2.5
   },
   {
@@ -26,20 +26,20 @@
   {
     "firstName": "Viacheslav",
     "lastName": "Chornovil",
-    "x": 2.4,
-    "y": 0.7
+    "x": 2.5,
+    "y": 1.3
   },
   {
     "firstName": "Viktor",
     "lastName": "Yushchenko",
     "x": 1,
-    "y": 1.2
+    "y": 1.3
   },
   {
     "firstName": "Petro",
     "lastName": "Poroshenko",
     "x": 1.5,
-    "y": 1.6
+    "y": 2
   },
   {
     "firstName": "Wiktor",

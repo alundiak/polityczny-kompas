@@ -50,8 +50,8 @@
   {
     "firstName": "Krzysztof",
     "lastName": "Stanowski",
-    "x": 3.6,
-    "y": 0.5
+    "x": -0.5,
+    "y": -0.1
   },
   {
     "firstName": "Marek",
@@ -62,8 +62,8 @@
   {
     "firstName": "Maciej",
     "lastName": "Maciak",
-    "x": 2.9,
-    "y": 2.8
+    "x": 3,
+    "y": 3
   },
   {
     "firstName": "Sławomir",
