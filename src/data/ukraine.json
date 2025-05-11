@@ -1,16 +1,68 @@
 [
   {
+    "firstName": "Stepan",
+    "lastName": "Bandera",
+    "x": 4.2,
+    "y": 3.9
+  },
+  {
+    "firstName": "Petro",
+    "lastName": "Symonenko",
+    "x": -4.5,
+    "y": 2.5
+  },
+  {
+    "firstName": "Leonid",
+    "lastName": "Kravchuk",
+    "x": -0.8,
+    "y": 0.7
+  },
+  {
+    "firstName": "Leonid",
+    "lastName": "Kuchma",
+    "x": 1,
+    "y": 3.2
+  },
+  {
+    "firstName": "Viacheslav",
+    "lastName": "Chornovil",
+    "x": 2.4,
+    "y": 0.7
+  },
+  {
+    "firstName": "Viktor",
+    "lastName": "Yushchenko",
+    "x": 1,
+    "y": 1.2
+  },
+  {
+    "firstName": "Petro",
+    "lastName": "Poroshenko",
+    "x": 1.5,
+    "y": 1.6
+  },
+  {
+    "firstName": "Wiktor",
+    "lastName": "Yanukovych",
+    "x": 2,
+    "y": 3.9
+  },
+  {
     "firstName": "Volodymyr",
     "lastName": "Zelenskyy",
-    "flag": "🇺🇦",
-    "x": 1.5,
+    "x": 1,
     "y": -0.5
   },
   {
     "firstName": "Hennadiy",
     "lastName": "Balashov",
-    "flag": "🇺🇦",
     "x": 5,
     "y": -4.5
+  },
+  {
+    "firstName": "Ołeh",
+    "lastName": "Tyahnybok",
+    "x": 3.5,
+    "y": 2.3
   }
 ]

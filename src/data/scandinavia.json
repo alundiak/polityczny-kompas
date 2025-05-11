@@ -4,7 +4,14 @@
     "lastName": "Støre",
     "flag": "🇳🇴",
     "x": -2.5,
-    "y": -2.2
+    "y": -2.3
+  },
+  {
+    "firstName": "Jens",
+    "lastName": "Stoltenberg",
+    "flag": "🇳🇴",
+    "x": -2.5,
+    "y": -1.9
   },
   {
     "firstName": "Ulf",
@@ -25,7 +32,7 @@
     "lastName": "Åkesson",
     "flag": "🇸🇪",
     "x": 3.6,
-    "y": 2.6
+    "y": 2.7
   },
   {
     "firstName": "Mette",

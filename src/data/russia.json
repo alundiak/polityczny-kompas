@@ -17,15 +17,15 @@
     "firstName": "Mikhail",
     "lastName": "Gorbachov",
     "flag": "🇷🇺",
-    "x": -2.5,
-    "y": 2.5
+    "x": -2,
+    "y": 2
   },
   {
     "firstName": "Boris",
     "lastName": "Jelcyn",
     "flag": "🇷🇺",
-    "x": -1,
-    "y": 2
+    "x": -0.4,
+    "y": 1.2
   },
   {
     "firstName": "vladimir",
@@ -39,7 +39,7 @@
     "lastName": "Łukaszenka",
     "flag": "🇧🇾",
     "x": 1,
-    "y": 4
+    "y": 4.1
   },
   {
     "firstName": "Sviatlana",

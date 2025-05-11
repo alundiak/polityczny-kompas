@@ -55,21 +55,21 @@
   },
   {
     "firstName": "Lech",
-    "lastName": "Wałęsa",
-    "x": -0.5,
-    "y": -1.5
+    "lastName": "Walęsa",
+    "x": 0.4,
+    "y": -0.7
   },
   {
     "firstName": "Aleksander",
     "lastName": "Kwaśniewski",
-    "x": -3,
+    "x": -2.5,
     "y": 1
   },
   {
     "firstName": "Bronisław",
     "lastName": "Komorowski",
-    "x": -1,
-    "y": 0
+    "x": 0,
+    "y": -1.5
   },
   {
     "firstName": "Donald",
@@ -86,7 +86,7 @@
   {
     "firstName": "Robert",
     "lastName": "Biedroń",
-    "x": -3,
-    "y": -2.5
+    "x": -3.2,
+    "y": -2.4
   }
 ]

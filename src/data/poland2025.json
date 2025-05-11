@@ -8,8 +8,8 @@
   {
     "firstName": "Joanna",
     "lastName": "Senyszyn",
-    "x": -4,
-    "y": 1.5
+    "x": -3.5,
+    "y": 0
   },
   {
     "firstName": "Magdalena",
@@ -56,14 +56,14 @@
   {
     "firstName": "Marek",
     "lastName": "Jakubiak",
-    "x": 3,
+    "x": 2.8,
     "y": 2.4
   },
   {
     "firstName": "Maciej",
     "lastName": "Maciak",
-    "x": 3,
-    "y": 2.9
+    "x": 2.9,
+    "y": 2.8
   },
   {
     "firstName": "Sławomir",

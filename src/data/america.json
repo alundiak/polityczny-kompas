@@ -3,8 +3,8 @@
     "firstName": "Justin",
     "lastName": "Trudeau",
     "flag": "🇨🇦",
-    "x": -2.5,
-    "y": 1.5
+    "x": -2.2,
+    "y": -0.8
   },
   {
     "firstName": "Donald",
@@ -73,22 +73,22 @@
     "firstName": "Ronald",
     "lastName": "Reagan",
     "flag": "🇺🇸",
-    "x": 5,
-    "y": 0.5
+    "x": 4,
+    "y": 1
   },
   {
     "firstName": "William (Bill)",
     "lastName": "Clinton",
     "flag": "🇺🇸",
-    "x": -1,
-    "y": 1
+    "x": -1.2,
+    "y": 1.2
   },
   {
     "firstName": "Barack",
     "lastName": "Obama",
     "flag": "🇺🇸",
     "x": -2,
-    "y": 1
+    "y": 0.2
   },
   {
     "firstName": "Joe",
@@ -101,7 +101,7 @@
     "firstName": "Kamala",
     "lastName": "Harris",
     "flag": "🇺🇸",
-    "x": -2.2,
+    "x": -1.6,
     "y": -0.6
   },
   {
