@@ -21,7 +21,7 @@
     "firstName": "Rafał",
     "lastName": "Trzaskowski",
     "x": -1,
-    "y": -1
+    "y": -1.1
   },
   {
     "firstName": "Szymon",
@@ -33,7 +33,7 @@
     "firstName": "Karol",
     "lastName": "Nawrocki",
     "x": 1.2,
-    "y": 2.2
+    "y": 2.3
   },
   {
     "firstName": "Marek Marian",

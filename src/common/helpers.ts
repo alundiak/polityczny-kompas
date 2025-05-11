@@ -1,8 +1,8 @@
 import { CSSProperties } from "react";
 import { SymbolType } from "recharts/types/util/types";
 
-import poland2025 from "../data/poland2025.json";
-import polandOther from "../data/polandOther.json";
+import poland2025Raw from "../data/poland2025.json";
+import polandOtherRaw from "../data/polandOther.json";
 import world from "../data/world.json";
 import america from "../data/america.json";
 import uk from "../data/uk.json";
@@ -13,6 +13,14 @@ import ukraine from "../data/ukraine.json";
 import russia from "../data/russia.json";
 
 import { CompassData, DataKind, Person } from "./models";
+
+const setFlag = (item: Person) => ({
+  ...item,
+  flag: "🇵🇱",
+});
+
+const poland2025 = poland2025Raw.map(setFlag);
+const polandOther = polandOtherRaw.map(setFlag);
 
 export const mainData: CompassData = {
   poland2025,

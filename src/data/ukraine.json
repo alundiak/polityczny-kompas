@@ -2,12 +2,14 @@
   {
     "firstName": "Volodymyr",
     "lastName": "Zelenskyy",
+    "flag": "🇺🇦",
     "x": 1.5,
     "y": -0.5
   },
   {
     "firstName": "Hennadiy",
     "lastName": "Balashov",
+    "flag": "🇺🇦",
     "x": 5,
     "y": -4.5
   }

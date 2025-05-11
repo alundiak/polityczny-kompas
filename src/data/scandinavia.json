@@ -1,43 +1,50 @@
 [
   {
     "firstName": "Jonas Gahr",
-    "lastName": "Støre🇳🇴",
+    "lastName": "Støre",
+    "flag": "🇳🇴",
     "x": -2.5,
     "y": -2.2
   },
   {
     "firstName": "Ulf",
-    "lastName": "Kristersson🇸🇪",
+    "lastName": "Kristersson",
+    "flag": "🇸🇪",
     "x": 2.7,
     "y": -2.1
   },
   {
     "firstName": "Magdalena",
-    "lastName": "Andersson🇸🇪",
+    "lastName": "Andersson",
+    "flag": "🇸🇪",
     "x": -2.1,
     "y": -2.9
   },
   {
     "firstName": "Jimmie",
-    "lastName": "Åkesson🇸🇪",
+    "lastName": "Åkesson",
+    "flag": "🇸🇪",
     "x": 3.6,
     "y": 2.6
   },
   {
     "firstName": "Mette",
-    "lastName": "Frederiksen🇩🇰",
+    "lastName": "Frederiksen",
+    "flag": "🇩🇰",
     "x": -2.5,
     "y": -3.3
   },
   {
     "firstName": "Sanna",
-    "lastName": "Marin🇫🇮",
+    "lastName": "Marin",
+    "flag": "🇫🇮",
     "x": -2,
     "y": -2.5
   },
   {
     "firstName": "Aleksandr",
-    "lastName": "Stubb🇫🇮",
+    "lastName": "Stubb",
+    "flag": "🇫🇮",
     "x": 2.1,
     "y": -2.3
   }

@@ -11,27 +11,42 @@ import {
   ReferenceArea,
   // Legend,
 } from "recharts";
+// import { ScatterPointItem } from "recharts/types/cartesian/Scatter";
 
-import AxisLabels from "./AxisLabels";
 import {
   getColorByType,
   getDataPointFillByType,
   getDataPointStyleByType,
-  getShapeByType,
+  // getShapeByType,
   myPoliticalEdges,
 } from "../common/helpers";
 import { DataKind, PoliticalCompassChartProps } from "../common/models";
+import AxisLabels from "./AxisLabels";
+import ShapeAsFlagSvg from "./ShapeAsFlagSvg";
 
 const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
   const mapper = (scatterId: DataKind) => {
     // Note. YES, <Scatter> should rendered DIRECTLY as child under <ScatterChart>
     // If to extract this chunk of code into dedicated component, then code will NOT render!
+
+    // Unfortunately, it's kinda not possible to implement conditional proper code here (ReCharts API TypeScript restriction)
+    // TBD/MAYBE someday
+    // const shapeValue = (item: ScatterPointItem) => {
+    //   if (item.payload?.flag) {
+    //     return <ShapeAsFlagSvg data={item} />;
+    //   } else {
+    //     return getShapeByType(scatterId);
+    //   }
+    // };
+
     return (
       <Scatter
         name={`${scatterId}-people`}
         data={props.data[scatterId]}
         fill={getColorByType(scatterId)}
-        shape={getShapeByType(scatterId)}
+        // shape={getShapeByType(scatterId)} // works
+        // shape={shapeValue} // does NOT work
+        shape={<ShapeAsFlagSvg />} // works, but requires to have `item.payload.flag` always
         isAnimationActive={false}
       >
         <LabelList

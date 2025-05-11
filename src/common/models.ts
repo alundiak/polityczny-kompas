@@ -14,6 +14,7 @@ export type DataKind =
 export interface Person {
   firstName?: string;
   lastName: string;
+  flag?: string;
   x: number;
   y: number;
 }

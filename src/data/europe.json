@@ -2,184 +2,216 @@
   {
     "firstName": "Napoleon",
     "lastName": "Napoleon",
+    "flag": "🇫🇷",
     "x": 1.4,
     "y": 4.5
   },
   {
     "firstName": "Emmanuel",
-    "lastName": "Macron🇫🇷",
+    "lastName": "Macron",
+    "flag": "🇫🇷",
     "x": -0.5,
     "y": -0.4
   },
   {
     "firstName": "Marine",
-    "lastName": "LePen🇫🇷",
+    "lastName": "LePen",
+    "flag": "🇫🇷",
     "x": 3.6,
     "y": 3.1
   },
   {
     "firstName": "Maria Theresia Walburga Amalia Christina",
     "lastName": "Maria Teresa",
+    "flag": "*",
     "x": 2.2,
     "y": 4.3
   },
   {
     "firstName": "",
     "lastName": "Józef-II",
+    "flag": "*",
     "x": 0,
     "y": 3
   },
   {
     "firstName": "",
     "lastName": "Franz Joseph-I",
+    "flag": "*",
     "x": 3,
     "y": 4
   },
   {
     "firstName": "adolf",
-    "lastName": "Hitler🇩🇪",
+    "lastName": "Hitler",
+    "flag": "🇩🇪",
     "x": 0.8,
     "y": 5
   },
   {
     "firstName": "Benito",
-    "lastName": "Mussolini🇮🇹",
+    "lastName": "Mussolini",
+    "flag": "🇮🇹",
     "x": 1.8,
     "y": 5
   },
   {
-    "lastName": "Meloni🇮🇹",
+    "firstName": "Giorgia",
+    "lastName": "Meloni",
+    "flag": "🇮🇹",
     "x": 2.5,
     "y": 2
   },
   {
     "firstName": "Mario",
-    "lastName": "Draghi🇮🇹",
+    "lastName": "Draghi",
+    "flag": "🇮🇹",
     "x": 1,
     "y": -2.1
   },
   {
     "firstName": "Karl",
-    "lastName": "Marks🇩🇪",
+    "lastName": "Marks",
+    "flag": "🇩🇪",
     "x": -5,
     "y": 3
   },
   {
-    "lastName": "Baerbock🇩🇪",
+    "lastName": "Baerbock",
+    "flag": "🇩🇪",
     "x": -2.6,
     "y": -0.4
   },
   {
     "firstName": "Sahra",
-    "lastName": "Wagenknecht🇩🇪",
+    "lastName": "Wagenknecht",
+    "flag": "🇩🇪",
     "x": -2,
     "y": 3
   },
   {
     "firstName": "Olaf",
-    "lastName": "Scholz🇩🇪",
+    "lastName": "Scholz",
+    "flag": "🇩🇪",
     "x": -1,
     "y": -2.1
   },
   {
     "firstName": "Friedrich",
-    "lastName": "Merz🇩🇪",
+    "lastName": "Merz",
+    "flag": "🇩🇪",
     "x": 3.3,
     "y": 2
   },
   {
     "firstName": "Angela",
-    "lastName": "Merkel🇩🇪",
+    "lastName": "Merkel",
+    "flag": "🇩🇪",
     "x": 1.5,
     "y": 1.1
   },
   {
     "firstName": "Christian",
-    "lastName": "Stocker🇦🇹",
+    "lastName": "Stocker",
+    "flag": "🇦🇹",
     "x": 1.1,
     "y": 0
   },
   {
     "firstName": "Karl",
-    "lastName": "Nehammer🇦🇹",
+    "lastName": "Nehammer",
+    "flag": "🇦🇹",
     "x": 1.8,
-    "y": 1.5
+    "y": 1.6
   },
   {
     "firstName": "Petr",
-    "lastName": "Pavel🇨🇿",
+    "lastName": "Pavel",
+    "flag": "🇨🇿",
     "x": 1,
     "y": -3.5
   },
   {
     "firstName": "Petr",
-    "lastName": "Fiala🇨🇿",
+    "lastName": "Fiala",
+    "flag": "🇨🇿",
     "x": 2.5,
     "y": -0.9
   },
   {
     "firstName": "Zuzana",
-    "lastName": "Čaputová🇸🇰",
+    "lastName": "Čaputová",
+    "flag": "🇸🇰",
     "x": -2,
-    "y": -1.1
+    "y": -1.3
   },
   {
     "firstName": "Michal",
-    "lastName": "Šimečka🇸🇰",
+    "lastName": "Šimečka",
+    "flag": "🇸🇰",
     "x": -2.6,
     "y": -1.5
   },
   {
     "firstName": "Robert",
-    "lastName": "Fico🇸🇰",
+    "lastName": "Fico",
+    "flag": "🇸🇰",
     "x": 1.4,
     "y": 3.5
   },
   {
     "firstName": "Peter",
-    "lastName": "Pellegrini🇸🇰",
+    "lastName": "Pellegrini",
+    "flag": "🇸🇰",
     "x": 0,
     "y": 0.2
   },
   {
     "firstName": "Eduard",
-    "lastName": "Heger🇸🇰",
+    "lastName": "Heger",
+    "flag": "🇸🇰",
     "x": 0.5,
     "y": 0.6
   },
   {
     "firstName": "Katalin",
-    "lastName": "Novák🇭🇺",
+    "lastName": "Novák",
+    "flag": "🇭🇺",
     "x": 1,
     "y": 3
   },
   {
     "firstName": "Viktor",
-    "lastName": "Orbán🇭🇺",
+    "lastName": "Orbán",
+    "flag": "🇭🇺",
     "x": 3.6,
     "y": 3.5
   },
   {
     "firstName": "Aleksandra",
-    "lastName": "Szentkirályi🇭🇺",
+    "lastName": "Szentkirályi",
+    "flag": "🇭🇺",
     "x": 2.5,
     "y": 3.5
   },
   {
     "firstName": "Péter",
-    "lastName": "Magyar🇭🇺",
+    "lastName": "Magyar",
+    "flag": "🇭🇺",
     "x": 1,
     "y": 2
   },
   {
     "firstName": "Aleksandr",
-    "lastName": "Vučić🇷🇸",
+    "lastName": "Vučić",
+    "flag": "🇷🇸",
     "x": 2,
     "y": 2.5
   },
   {
     "firstName": "Slobodan",
-    "lastName": "Milošević🇷🇸",
+    "lastName": "Milošević",
+    "flag": "*🇷🇸",
     "x": -1.5,
     "y": 4
   }

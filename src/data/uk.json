@@ -1,26 +1,30 @@
 [
   {
     "firstName": "Margaret",
-    "lastName": "Thatcher🇬🇧",
+    "lastName": "Thatcher",
+    "flag": "🇬🇧",
     "x": 5,
     "y": -0.5
   },
   {
     "firstName": "Boris",
-    "lastName": "Johnson🇬🇧",
+    "lastName": "Johnson",
+    "flag": "🇬🇧",
     "x": 2.5,
-    "y": 1.3
+    "y": 1.1
   },
   {
     "firstName": "Rishi",
-    "lastName": "Sunak🇬🇧",
+    "lastName": "Sunak",
+    "flag": "🇬🇧",
     "x": 3,
-    "y": 1
+    "y": 0.9
   },
   {
     "firstName": "Keir",
-    "lastName": "Starmer🇬🇧",
-    "x": -1.5,
+    "lastName": "Starmer",
+    "flag": "🇬🇧",
+    "x": -1.4,
     "y": -1.5
   }
 ]

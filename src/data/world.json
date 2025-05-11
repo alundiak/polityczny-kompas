@@ -1,19 +1,22 @@
 [
   {
     "firstName": "Xi",
-    "lastName": "Jinping🇨🇳",
+    "lastName": "Jinping",
+    "flag": "🇨🇳",
     "x": -4,
     "y": 4
   },
   {
     "firstName": "Bashar",
-    "lastName": "al-Assad🇸🇾",
+    "lastName": "al-Assad",
+    "flag": "🇸🇾",
     "x": -0.5,
     "y": 4.5
   },
   {
     "firstName": "Saddam",
-    "lastName": "Husajn🇮🇶",
+    "lastName": "Husajn",
+    "flag": "🇮🇶",
     "x": -1.5,
     "y": 4.5
   }

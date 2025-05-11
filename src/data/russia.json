@@ -2,72 +2,84 @@
   {
     "firstName": "Vladimir",
     "lastName": "Lenin",
+    "flag": "🇷🇺",
     "x": -4,
     "y": 3.5
   },
   {
     "firstName": "Josip",
     "lastName": "Stalin",
+    "flag": "🇷🇺",
     "x": -5,
     "y": 5
   },
   {
     "firstName": "Mikhail",
     "lastName": "Gorbachov",
+    "flag": "🇷🇺",
     "x": -2.5,
     "y": 2.5
   },
   {
     "firstName": "Boris",
     "lastName": "Jelcyn",
+    "flag": "🇷🇺",
     "x": -1,
     "y": 2
   },
   {
     "firstName": "vladimir",
     "lastName": "Putin",
+    "flag": "🇷🇺",
     "x": 3.3,
     "y": 4.6
   },
   {
     "firstName": "Alaksandr",
-    "lastName": "Łukaszenka🇧🇾",
+    "lastName": "Łukaszenka",
+    "flag": "🇧🇾",
     "x": 1,
     "y": 4
   },
   {
     "firstName": "Sviatlana",
-    "lastName": "Tsikhanouskaya🇧🇾",
+    "lastName": "Tsikhanouskaya",
+    "flag": "🇧🇾",
     "x": 0,
     "y": -1.9
   },
   {
     "firstName": "Nestor",
     "lastName": "Machno",
+    "flag": "🇷🇺",
     "x": -5,
     "y": -5
   },
   {
     "firstName": "Boris",
     "lastName": "Niemcow",
+    "flag": "🇷🇺",
     "x": 0.9,
     "y": -2.7
   },
   {
     "firstName": "Garry",
     "lastName": "Kasparow",
+    "flag": "🇷🇺",
     "x": 2,
     "y": -3
   },
   {
     "firstName": "Pavel",
     "lastName": "Durov",
+    "flag": "🇷🇺",
     "x": 3,
     "y": -4
   },
   {
     "firstName": "Andrey",
     "lastName": "Illarionov",
+    "flag": "🇷🇺",
     "x": 3.3,
     "y": -3.5
   }

@@ -1,31 +1,36 @@
 [
   {
     "firstName": "Kaja",
-    "lastName": "Kallas🇪🇪",
+    "lastName": "Kallas",
+    "flag": "🇪🇪",
     "x": 1,
     "y": -1
   },
   {
     "firstName": "Gitanas",
-    "lastName": "Nausėda🇱🇹",
+    "lastName": "Nausėda",
+    "flag": "🇱🇹",
     "x": 0.6,
     "y": -1.5
   },
   {
     "firstName": "Krišjānis",
-    "lastName": "Kariņš🇱🇻",
+    "lastName": "Kariņš",
+    "flag": "🇱🇻",
     "x": 2.4,
     "y": -1.4
   },
   {
     "firstName": "Edgars",
-    "lastName": "Rinkēvičs🇱🇻",
+    "lastName": "Rinkēvičs",
+    "flag": "🇱🇻",
     "x": 2,
     "y": -1.8
   },
   {
     "firstName": "Evika",
-    "lastName": "Siliņa🇱🇻",
+    "lastName": "Siliņa",
+    "flag": "🇱🇻",
     "x": 1.5,
     "y": -2.5
   }

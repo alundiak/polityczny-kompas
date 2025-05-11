@@ -1,115 +1,134 @@
 [
   {
     "firstName": "Justin",
-    "lastName": "Trudeau🇨🇦",
+    "lastName": "Trudeau",
+    "flag": "🇨🇦",
     "x": -2.5,
     "y": 1.5
   },
   {
     "firstName": "Donald",
     "lastName": "Trump",
+    "flag": "🇺🇸",
     "x": 3.5,
     "y": 1.5
   },
   {
     "firstName": "Elon",
     "lastName": "Musk",
+    "flag": "🇺🇸",
     "x": 4,
     "y": -2
   },
   {
     "firstName": "Milton",
     "lastName": "Friedman",
+    "flag": "🇺🇸",
     "x": 2,
     "y": -5
   },
   {
     "firstName": "Murray?",
     "lastName": "Rothbard",
+    "flag": "🇺🇸",
     "x": 5,
     "y": -5
   },
   {
     "firstName": "Noah",
     "lastName": "Chomsky",
+    "flag": "🇺🇸",
     "x": -5,
     "y": 0
   },
   {
     "firstName": "Ron",
     "lastName": "Paul",
+    "flag": "🇺🇸",
     "x": 4,
     "y": -4
   },
   {
     "firstName": "Edward",
     "lastName": "Snowden",
+    "flag": "🇺🇸",
     "x": 1,
     "y": -4.5
   },
   {
     "firstName": "Alexandria Ocasio-Cortez",
     "lastName": "AOC",
+    "flag": "🇺🇸",
     "x": -4,
     "y": -3
   },
   {
     "firstName": "Bernie",
     "lastName": "Sanders",
+    "flag": "🇺🇸",
     "x": -4,
     "y": -2.5
   },
   {
     "firstName": "Ronald",
     "lastName": "Reagan",
+    "flag": "🇺🇸",
     "x": 5,
     "y": 0.5
   },
   {
     "firstName": "William (Bill)",
     "lastName": "Clinton",
+    "flag": "🇺🇸",
     "x": -1,
     "y": 1
   },
   {
-    "firstName": "Javier",
-    "lastName": "Milei🇦🇷",
-    "x": 5,
-    "y": -4
-  },
-  {
     "firstName": "Barack",
     "lastName": "Obama",
+    "flag": "🇺🇸",
     "x": -2,
     "y": 1
   },
   {
     "firstName": "Joe",
     "lastName": "Biden",
+    "flag": "🇺🇸",
     "x": -1.5,
     "y": 1.5
   },
   {
     "firstName": "Kamala",
     "lastName": "Harris",
+    "flag": "🇺🇸",
     "x": -2.2,
     "y": -0.6
   },
   {
+    "firstName": "Javier",
+    "lastName": "Milei",
+    "flag": "🇦🇷",
+    "x": 5,
+    "y": -4
+  },
+  {
     "firstName": "Augusto",
-    "lastName": "Pinochet🇨🇱",
+    "lastName": "Pinochet",
+    "flag": "🇨🇱",
     "x": 4.1,
     "y": 4.5
   },
   {
     "firstName": "Fidel",
-    "lastName": "Castro🇨🇺",
+    "lastName": "Castro",
+    "flag": "🇨🇺",
     "x": -4.5,
     "y": 4.5
   },
   {
     "firstName": "Che",
-    "lastName": "Guevara🇨🇺",
+    "lastName": "Guevara",
+    "flag": "🇨🇺",
     "x": -4,
     "y": 3
   }
