@@ -7,6 +7,20 @@
     "y": 4
   },
   {
+    "firstName": "",
+    "lastName": "Kim-Dzong Un",
+    "flag": "🇰🇵",
+    "x": -2.2,
+    "y": 4.8
+  },
+  {
+    "firstName": "",
+    "lastName": "Yoon-Suk Yeol",
+    "flag": "🇰🇷",
+    "x": 3,
+    "y": 2
+  },
+  {
     "firstName": "Bashar",
     "lastName": "al-Assad",
     "flag": "🇸🇾",
@@ -19,5 +33,12 @@
     "flag": "🇮🇶",
     "x": -1.5,
     "y": 4.5
+  },
+  {
+    "firstName": "Julian",
+    "lastName": "Assange",
+    "flag": "🇦🇺",
+    "x": -2,
+    "y": -4.5
   }
 ]

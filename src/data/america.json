@@ -38,8 +38,8 @@
     "firstName": "Noah",
     "lastName": "Chomsky",
     "flag": "🇺🇸",
-    "x": -5,
-    "y": 0
+    "x": -4,
+    "y": -4
   },
   {
     "firstName": "Ron",
@@ -52,8 +52,8 @@
     "firstName": "Edward",
     "lastName": "Snowden",
     "flag": "🇺🇸",
-    "x": 1,
-    "y": -4.5
+    "x": -1,
+    "y": -4
   },
   {
     "firstName": "Alexandria Ocasio-Cortez",
@@ -82,6 +82,13 @@
     "flag": "🇺🇸",
     "x": -1.2,
     "y": 1.2
+  },
+  {
+    "firstName": "George W.",
+    "lastName": "Bush",
+    "flag": "🇺🇸",
+    "x": 3.5,
+    "y": 4
   },
   {
     "firstName": "Barack",
