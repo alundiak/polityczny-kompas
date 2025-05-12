@@ -1,11 +1,5 @@
 [
   {
-    "firstName": "Stepan",
-    "lastName": "Bandera",
-    "x": 4.3,
-    "y": 3.8
-  },
-  {
     "firstName": "Petro",
     "lastName": "Symonenko",
     "x": -3.5,
@@ -66,9 +60,21 @@
     "y": -4.5
   },
   {
+    "firstName": "Stepan",
+    "lastName": "Bandera",
+    "x": 4.3,
+    "y": 3.8
+  },
+  {
     "firstName": "Ołeh",
     "lastName": "Tyahnybok",
     "x": 3.6,
     "y": 2.5
+  },
+  {
+    "firstName": "Iryna",
+    "lastName": "Farion",
+    "x": 4,
+    "y": 3
   }
 ]
