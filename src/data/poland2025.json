@@ -3,18 +3,18 @@
     "firstName": "Adrian",
     "lastName": "Zandberg",
     "x": -3,
-    "y": -2
+    "y": 0.5
   },
   {
     "firstName": "Joanna",
     "lastName": "Senyszyn",
     "x": -3.5,
-    "y": 0
+    "y": -0.6
   },
   {
     "firstName": "Magdalena",
     "lastName": "Biejat",
-    "x": -3.5,
+    "x": -3.4,
     "y": -1.5
   },
   {
@@ -38,7 +38,7 @@
   {
     "firstName": "Marek Marian",
     "lastName": "Woch",
-    "x": 0,
+    "x": 0.4,
     "y": 2
   },
   {
