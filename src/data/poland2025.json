@@ -33,7 +33,7 @@
     "firstName": "Karol",
     "lastName": "Nawrocki",
     "x": 1.2,
-    "y": 2.3
+    "y": 2.4
   },
   {
     "firstName": "Marek Marian",
@@ -44,25 +44,25 @@
   {
     "firstName": "Artur",
     "lastName": "Bartoszewicz",
-    "x": 2,
-    "y": 0.2
+    "x": 2.6,
+    "y": 1.2
   },
   {
     "firstName": "Krzysztof",
     "lastName": "Stanowski",
-    "x": -0.5,
-    "y": -0.1
+    "x": 0,
+    "y": 0
   },
   {
     "firstName": "Marek",
     "lastName": "Jakubiak",
-    "x": 2.8,
-    "y": 2.4
+    "x": 3.3,
+    "y": 2
   },
   {
     "firstName": "Maciej",
     "lastName": "Maciak",
-    "x": 3,
+    "x": 2.8,
     "y": 3
   },
   {
@@ -75,6 +75,6 @@
     "firstName": "Grzegorz",
     "lastName": "Braun",
     "x": 4.5,
-    "y": 3
+    "y": 3.3
   }
 ]
