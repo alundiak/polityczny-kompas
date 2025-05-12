@@ -54,6 +54,12 @@
     "y": -0.5
   },
   {
+    "firstName": "Oleh",
+    "lastName": "Liashko",
+    "x": -1,
+    "y": -3
+  },
+  {
     "firstName": "Hennadiy",
     "lastName": "Balashov",
     "x": 5,
@@ -62,7 +68,7 @@
   {
     "firstName": "Ołeh",
     "lastName": "Tyahnybok",
-    "x": 3.5,
-    "y": 2.3
+    "x": 3.6,
+    "y": 2.5
   }
 ]
