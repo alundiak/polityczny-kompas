@@ -7,6 +7,13 @@
     "y": 4.5
   },
   {
+    "firstName": "Charles de",
+    "lastName": "Gaulle",
+    "flag": "🇫🇷",
+    "x": 1.5,
+    "y": 2.5
+  },
+  {
     "firstName": "Emmanuel",
     "lastName": "Macron",
     "flag": "🇫🇷",
@@ -53,6 +60,13 @@
     "lastName": "Hitler",
     "flag": "🇩🇪",
     "x": 0.8,
+    "y": 5
+  },
+  {
+    "firstName": "Francisco",
+    "lastName": "Franco",
+    "flag": "🇪🇸",
+    "x": 4.5,
     "y": 5
   },
   {

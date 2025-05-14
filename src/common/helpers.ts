@@ -78,10 +78,7 @@ export const leftColumnData: DataKind[] = [
   "world",
 ];
 
-export const rightColumnData: DataKind[] = [
-  "lang",
-  // showAndrii
-];
+export const rightColumnData: DataKind[] = ["lang"];
 
 export const DEFAULT_SCATTERS_IDS: DataKind[] = ["poland2025", "polandOther"];
 
