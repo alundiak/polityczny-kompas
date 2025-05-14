@@ -9,7 +9,8 @@ export type DataKind =
   | "europe"
   | "russia"
   | "ukraine"
-  | "world";
+  | "world"
+  | "lang";
 
 export interface Person {
   firstName?: string;

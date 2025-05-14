@@ -1,0 +1,102 @@
+[
+  {
+    "lastName": "PHP",
+    "x": 3,
+    "y": -3
+  },
+  {
+    "lastName": "JavaScript",
+    "x": -0.8,
+    "y": 0.4
+  },
+  {
+    "lastName": "TypeScript",
+    "x": 1.1,
+    "y": 2.5
+  },
+  {
+    "lastName": "C++",
+    "x": 1.1,
+    "y": 1.1
+  },
+  {
+    "lastName": "C#",
+    "x": 3,
+    "y": 3.5
+  },
+  {
+    "lastName": "Java",
+    "x": 2.5,
+    "y": 4
+  },
+  {
+    "lastName": "Assembler",
+    "x": 4.5,
+    "y": 4.5
+  },
+  {
+    "lastName": "Python",
+    "x": 0,
+    "y": -3
+  },
+  {
+    "lastName": "Haskell",
+    "x": -4.5,
+    "y": 2
+  },
+  {
+    "lastName": "Go",
+    "x": 0,
+    "y": 1
+  },
+  {
+    "lastName": "Rust",
+    "x": -4.1,
+    "y": 3.1
+  },
+  {
+    "lastName": "Ruby",
+    "x": 1,
+    "y": -2
+  },
+  {
+    "lastName": "Elixir",
+    "x": 0,
+    "y": -1
+  },
+  {
+    "lastName": "Swift",
+    "x": -2,
+    "y": 1
+  },
+  {
+    "lastName": "Perl",
+    "x": 4,
+    "y": -4.8
+  },
+  {
+    "lastName": "R",
+    "x": -1.1,
+    "y": -4.1
+  },
+  {
+    "lastName": "Julia",
+    "x": -2,
+    "y": -2
+  },
+  {
+    "lastName": "Kotlin",
+    "x": -1,
+    "y": 2
+  },
+  {
+    "lastName": "Dart",
+    "x": 0,
+    "y": 2
+  },
+  {
+    "lastName": "Lua",
+    "x": 4,
+    "y": -3.5
+  }
+]

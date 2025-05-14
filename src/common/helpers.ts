@@ -11,6 +11,7 @@ import baltics from "../data/baltics.json";
 import europe from "../data/europe.json";
 import ukraineJson from "../data/ukraine.json";
 import russia from "../data/russia.json";
+import lang from "../data/lang.json";
 
 import { CompassData, DataKind, Person } from "./models";
 
@@ -36,6 +37,7 @@ export const mainData: CompassData = {
   europe,
   russia,
   ukraine,
+  lang,
 };
 
 export const mergedData: Person[] = Object.values(mainData).flat();
@@ -74,7 +76,11 @@ export const leftColumnData: DataKind[] = [
   "russia",
 ];
 
-export const rightColumnData: DataKind[] = ["poland2025", "polandOther"];
+export const rightColumnData: DataKind[] = [
+  "poland2025",
+  "polandOther",
+  // "lang",
+];
 
 export const DEFAULT_SCATTERS_IDS: DataKind[] = ["poland2025", "polandOther"];
 
@@ -141,6 +147,7 @@ export const getShapeByType = (scatterId: DataKind): SymbolType => {
 
 export const getDataPointStyleByType = (scatterId: DataKind): CSSProperties => {
   switch (scatterId) {
+    case "lang":
     case "poland2025":
       return { fontSize: 20, fill: "blue" };
 
@@ -174,4 +181,12 @@ export const myPoliticalEdges = {
   y1: 1, // II Authoritarian
   x2: -2, // III Left
   y2: -3, // IV Libertarian
+};
+
+// Programming Languages
+export const myProgrammingEdges = {
+  x1: -0.5, // I Right
+  y1: -2.5, // II Authoritarian
+  x2: 3.5, // III Left
+  y2: -4.5, // IV Libertarian
 };
