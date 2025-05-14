@@ -73,8 +73,8 @@
     "firstName": "Mario",
     "lastName": "Draghi",
     "flag": "🇮🇹",
-    "x": 1,
-    "y": -2.1
+    "x": 1.1,
+    "y": -2
   },
   {
     "firstName": "Karl",
@@ -87,8 +87,8 @@
     "firstName": "Ursula von der",
     "lastName": "Leyen",
     "flag": "🇩🇪",
-    "x": 1.1,
-    "y": -1.7
+    "x": 1.2,
+    "y": -1.6
   },
   {
     "firstName": "Annalena",
@@ -115,8 +115,8 @@
     "firstName": "Olaf",
     "lastName": "Scholz",
     "flag": "🇩🇪",
-    "x": -1,
-    "y": -2.1
+    "x": -0.9,
+    "y": -1.8
   },
   {
     "firstName": "Friedrich",

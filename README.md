@@ -13,6 +13,7 @@ Green rectangle is "my political views" area. Other dots represent political peo
 
 ![v2-other-1](./images/v2-other-1.png)
 ![v2-other-2](./images/v2-other-2.png)
+![v2-other-all](./images/v2-other-all.png)
 
 And [here](https://alundiak.github.io/polityczny-kompas/politica.html) is previous, my initial very basic version using basic HTML/SVG.
 
@@ -59,3 +60,7 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 - ReCharts experience.
 - Touch to Light/Dark theme support CSS coding
 - `SVG` restrictions with emojis and fonts. Corporate or Windows laptops may NOT render flag-emojis, as result need to re-think a fallback.
+
+## Bonus. Polityczny kompas języków programowania
+
+![v2-other-lang](./images/v2-other-lang.png)

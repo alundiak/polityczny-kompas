@@ -68,9 +68,9 @@ export function findSameCoordinates(data: Person[]): Person[] {
 export const leftColumnData: DataKind[] = [
   "poland2025",
   "polandOther",
-  "europe",
   "ukraine",
   "russia",
+  "europe",
   "baltics",
   "scandinavia",
   "uk",
