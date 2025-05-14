@@ -53,3 +53,9 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 
 - https://cdw.edu.pl/kompas/kompas-pogladow/ ([mój wynik](https://cdw.edu.pl/kompas/kompas-pogladow/?res=24214452245123405444))
 - https://latarnikwyborczy.pl/ankieta ([mój wynik](https://latarnikwyborczy.pl/s/32f02ef8db))
+
+## Got somethings new in technical experience
+
+- ReCharts experience.
+- Touch to Light/Dark theme support CSS coding
+- `SVG` restrictions with emojis and fonts. Corporate or Windows laptops may NOT render flag-emojis, as result need to re-think a fallback.

@@ -27,6 +27,8 @@ export interface CompassData {
 export interface PoliticalCompassChartProps {
   data: CompassData;
   scattersIds: DataKind[];
+  showAndrii: boolean;
+  showAndriiLang: boolean;
 }
 
 export interface LabeledCheckboxProps {

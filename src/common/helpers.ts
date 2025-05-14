@@ -66,20 +66,21 @@ export function findSameCoordinates(data: Person[]): Person[] {
 }
 
 export const leftColumnData: DataKind[] = [
-  "world",
-  "america",
-  "uk",
-  "scandinavia",
-  "baltics",
+  "poland2025",
+  "polandOther",
   "europe",
   "ukraine",
   "russia",
+  "baltics",
+  "scandinavia",
+  "uk",
+  "america",
+  "world",
 ];
 
 export const rightColumnData: DataKind[] = [
-  "poland2025",
-  "polandOther",
-  // "lang",
+  "lang",
+  // showAndrii
 ];
 
 export const DEFAULT_SCATTERS_IDS: DataKind[] = ["poland2025", "polandOther"];
@@ -87,13 +88,13 @@ export const DEFAULT_SCATTERS_IDS: DataKind[] = ["poland2025", "polandOther"];
 export const getLabelFromKey = (scatterId: DataKind): string => {
   switch (scatterId) {
     case "poland2025":
-      return "🇵🇱Poland (2025)";
+      return "🇵🇱Polska (2025)";
 
     case "polandOther":
-      return "🇵🇱Poland (other)";
+      return "🇵🇱Polska (inni)";
 
     case "world":
-      return "World";
+      return "Inni";
 
     case "america":
       return "America";
@@ -102,19 +103,22 @@ export const getLabelFromKey = (scatterId: DataKind): string => {
       return "Scandinavia";
 
     case "baltics":
-      return "Baltics";
+      return "Bałtyk";
 
     case "uk":
       return "UK";
 
     case "europe":
-      return "Europe";
+      return "Europa";
 
     case "ukraine":
-      return "🇺🇦Ukraine";
+      return "🇺🇦Ukraina";
 
     case "russia":
-      return "🇷🇺russia";
+      return "🇷🇺rosja";
+
+    case "lang":
+      return "języki programowania";
 
     default:
       return scatterId;
@@ -147,9 +151,11 @@ export const getShapeByType = (scatterId: DataKind): SymbolType => {
 
 export const getDataPointStyleByType = (scatterId: DataKind): CSSProperties => {
   switch (scatterId) {
-    case "lang":
     case "poland2025":
       return { fontSize: 20, fill: "blue" };
+
+    case "lang":
+      return { fontSize: 20, fill: "lightcoral" };
 
     case "polandOther":
       return { fontSize: 14 };
@@ -185,8 +191,8 @@ export const myPoliticalEdges = {
 
 // Programming Languages
 export const myProgrammingEdges = {
-  x1: -0.5, // I Right
-  y1: -2.5, // II Authoritarian
-  x2: 3.5, // III Left
-  y2: -4.5, // IV Libertarian
+  x1: -1,
+  y1: 3,
+  x2: 3,
+  y2: -3,
 };

@@ -20,6 +20,9 @@ const duplicateCoordinates = findSameCoordinates(mergedData);
 const ThreeColumnLayout: React.FC = () => {
   // Note. Renders twice because of StrictMode.
 
+  const [showAndrii, setShowAndrii] = useState(false);
+  const [showAndriiLang, setShowAndriiLang] = useState(false);
+
   const [scattersIds, setScattersIds] = useState<Set<DataKind>>(
     new Set(DEFAULT_SCATTERS_IDS)
   );
@@ -50,16 +53,45 @@ const ThreeColumnLayout: React.FC = () => {
 
   return (
     <div className="wrapper">
-      <div className="column left">{leftColumnData.map(mapperPredicate)}</div>
+      <div className="column left">
+        {leftColumnData.map(mapperPredicate)}
+        <br />
+        <label className="flex items-center">
+          <input
+            className="h-5 w-5"
+            type="checkbox"
+            name={"show-andrii"}
+            checked={showAndrii}
+            onChange={() => setShowAndrii(!showAndrii)}
+          />
+          &nbsp; poglądy Andrzeja
+        </label>
+      </div>
 
       <div className="centerColumn">
         <PoliticalCompassChart
           data={mainData}
           scattersIds={Array.from(scattersIds)}
+          showAndrii={showAndrii}
+          showAndriiLang={showAndriiLang}
         />
       </div>
 
-      <div className="column right">{rightColumnData.map(mapperPredicate)}</div>
+      <div className="column right">
+        {rightColumnData.map(mapperPredicate)}
+
+        <br />
+        <label className="flex items-center">
+          <input
+            className="h-5 w-5"
+            type="checkbox"
+            name={"show-andrii-lang"}
+            checked={showAndriiLang}
+            onChange={() => setShowAndriiLang(!showAndriiLang)}
+          />
+          &nbsp; język programowania Andrzeja
+        </label>
+      </div>
       {duplicateCoordinates.length > 0 && (
         <WarningMessage duplicateCoordinates={duplicateCoordinates} />
       )}

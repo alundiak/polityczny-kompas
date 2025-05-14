@@ -8,7 +8,7 @@ import "./shapeAsFlag.css";
 // }
 
 const ShapeAsFlagSvg = (data: ScatterPointItem) => {
-  console.log(data);
+  // console.log(data);
   return (
     <text
       // don't use data.x and .data.y

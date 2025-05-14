@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
   height: 100vh;
 
   .column {
@@ -16,6 +16,7 @@
       text-align: left;
       margin-bottom: 10px;
       user-select: none;
+      /* min-width: 300px; */
 
       input {
         cursor: pointer;
