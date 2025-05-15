@@ -127,9 +127,9 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               y1={myProgrammingEdges.y1}
               y2={myProgrammingEdges.y2}
               isFront={false}
-              fill="green"
+              fill="lightcoral"
               fillOpacity={0.1}
-              stroke="green"
+              stroke="lightcoral"
               strokeOpacity={0.5}
             />
           )}
