@@ -6,13 +6,13 @@
   },
   {
     "lastName": "JavaScript",
-    "x": -1.1,
-    "y": -1.1
+    "x": -1.5,
+    "y": -3.5
   },
   {
     "lastName": "TypeScript",
-    "x": 1.1,
-    "y": 2.5
+    "x": 2.1,
+    "y": 2.9
   },
   {
     "lastName": "C++",
@@ -42,7 +42,7 @@
   {
     "lastName": "Haskell",
     "x": -4.5,
-    "y": 2
+    "y": 3.4
   },
   {
     "lastName": "Go",
@@ -51,7 +51,7 @@
   },
   {
     "lastName": "Rust",
-    "x": -4.1,
+    "x": -2.1,
     "y": 3.1
   },
   {
@@ -66,7 +66,7 @@
   },
   {
     "lastName": "Swift",
-    "x": -2,
+    "x": -1.5,
     "y": 1
   },
   {
@@ -86,13 +86,13 @@
   },
   {
     "lastName": "Kotlin",
-    "x": -1,
+    "x": -2.5,
     "y": 2
   },
   {
     "lastName": "Dart",
-    "x": 0,
-    "y": 2
+    "x": -0.5,
+    "y": 1.5
   },
   {
     "lastName": "Lua",

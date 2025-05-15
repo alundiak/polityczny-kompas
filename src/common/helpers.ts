@@ -190,6 +190,6 @@ export const myPoliticalEdges = {
 export const myProgrammingEdges = {
   x1: -1.5,
   y1: 3,
-  x2: 3,
-  y2: -3,
+  x2: 2.5,
+  y2: -3.5,
 };
