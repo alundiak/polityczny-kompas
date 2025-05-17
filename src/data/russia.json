@@ -14,18 +14,32 @@
     "y": 5
   },
   {
+    "firstName": "Leonid",
+    "lastName": "Breżniew",
+    "flag": "🇷🇺",
+    "x": -3.9,
+    "y": 4.3
+  },
+  {
+    "firstName": "Nikita",
+    "lastName": "Chruszczow",
+    "flag": "🇷🇺",
+    "x": -3.5,
+    "y": 3.5
+  },
+  {
     "firstName": "Mikhail",
     "lastName": "Gorbachov",
     "flag": "🇷🇺",
-    "x": -2,
-    "y": 2
+    "x": -2.3,
+    "y": 1.4
   },
   {
     "firstName": "Boris",
     "lastName": "Jelcyn",
     "flag": "🇷🇺",
-    "x": -0.4,
-    "y": 1.2
+    "x": 1,
+    "y": -2
   },
   {
     "firstName": "vladimir",

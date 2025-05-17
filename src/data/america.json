@@ -7,11 +7,25 @@
     "y": -0.8
   },
   {
+    "firstName": "Ronald",
+    "lastName": "Reagan",
+    "flag": "🇺🇸",
+    "x": 3.5,
+    "y": 1.5
+  },
+  {
+    "firstName": "George W.",
+    "lastName": "Bush",
+    "flag": "🇺🇸",
+    "x": 3,
+    "y": 2.7
+  },
+  {
     "firstName": "Donald",
     "lastName": "Trump",
     "flag": "🇺🇸",
     "x": 3.5,
-    "y": 1.5
+    "y": 3.2
   },
   {
     "firstName": "Elon",
@@ -19,6 +33,27 @@
     "flag": "🇺🇸",
     "x": 4,
     "y": -2
+  },
+  {
+    "firstName": "William B.",
+    "lastName": "Taylor",
+    "flag": "🇺🇸",
+    "x": 1,
+    "y": -1.5
+  },
+  {
+    "firstName": "Condoleezza",
+    "lastName": "Rice",
+    "flag": "🇺🇸",
+    "x": 1.5,
+    "y": -1.3
+  },
+  {
+    "firstName": "Mitt",
+    "lastName": "Romney",
+    "flag": "🇺🇸",
+    "x": 2,
+    "y": -2.5
   },
   {
     "firstName": "Milton",
@@ -70,39 +105,25 @@
     "y": -2.5
   },
   {
-    "firstName": "Ronald",
-    "lastName": "Reagan",
-    "flag": "🇺🇸",
-    "x": 4,
-    "y": 1
-  },
-  {
     "firstName": "William (Bill)",
     "lastName": "Clinton",
     "flag": "🇺🇸",
     "x": -1.2,
-    "y": 1.2
-  },
-  {
-    "firstName": "George W.",
-    "lastName": "Bush",
-    "flag": "🇺🇸",
-    "x": 3.5,
-    "y": 4
+    "y": 1.3
   },
   {
     "firstName": "Barack",
     "lastName": "Obama",
     "flag": "🇺🇸",
-    "x": -2,
-    "y": 0.2
+    "x": -1.4,
+    "y": -0.3
   },
   {
     "firstName": "Joe",
     "lastName": "Biden",
     "flag": "🇺🇸",
-    "x": -1.5,
-    "y": 1.5
+    "x": -1.6,
+    "y": 1.6
   },
   {
     "firstName": "Kamala",
