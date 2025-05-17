@@ -14,6 +14,27 @@
     "y": -1.9
   },
   {
+    "firstName": "Audun",
+    "lastName": "Lysbakken",
+    "flag": "🇳🇴",
+    "x": -3.2,
+    "y": 1.3
+  },
+  {
+    "firstName": "Gudrun",
+    "lastName": "Schyman",
+    "flag": "🇸🇪",
+    "x": -4,
+    "y": 2.2
+  },
+  {
+    "firstName": "Jan",
+    "lastName": "Björklund",
+    "flag": "🇸🇪",
+    "x": 2,
+    "y": -1.1
+  },
+  {
     "firstName": "Ulf",
     "lastName": "Kristersson",
     "flag": "🇸🇪",
