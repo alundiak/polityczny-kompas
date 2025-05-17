@@ -11,10 +11,10 @@ Green rectangle is "my political views" area. Other dots represent political peo
 
 ![v2-poland](./images/v2-poland.png)
 
-![v2-other-ua-ru](./images/v2-other-ua-ru.png)
-![v2-other-ue](./images/v2-other-ue.png)
-![v2-other-us-uk](./images/v2-other-us-uk.png)
-![v2-other-all](./images/v2-other-all.png)
+![v2-ua-ru](./images/v2-ua-ru.png)
+![v2-eu](./images/v2-eu.png)
+![v2-us-uk-world](./images/v2-us-uk-world.png)
+![v2-all](./images/v2-all.png)
 
 And [here](https://alundiak.github.io/polityczny-kompas/politica.html) is previous, my initial very basic version using basic HTML/SVG.
 
@@ -64,4 +64,4 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 
 ## Bonus. Polityczny kompas języków programowania
 
-![v2-other-lang](./images/v2-other-lang.png)
+![v2-lang](./images/v2--lang.png)

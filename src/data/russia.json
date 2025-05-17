@@ -38,8 +38,8 @@
     "firstName": "Boris",
     "lastName": "Jelcyn",
     "flag": "🇷🇺",
-    "x": 1,
-    "y": -2
+    "x": 1.5,
+    "y": -1.5
   },
   {
     "firstName": "vladimir",
@@ -80,8 +80,8 @@
     "firstName": "Boris",
     "lastName": "Niemcow",
     "flag": "🇷🇺",
-    "x": 0.9,
-    "y": -2.7
+    "x": 0.5,
+    "y": -3
   },
   {
     "firstName": "Garry",
