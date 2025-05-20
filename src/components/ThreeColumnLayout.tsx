@@ -64,7 +64,7 @@ const ThreeColumnLayout: React.FC = () => {
             checked={showAndrii}
             onChange={() => setShowAndrii(!showAndrii)}
           />
-          &nbsp; poglądy Andrzeja
+          &nbsp; <span className="bg-green-100">Andrii LUNDIAK</span>
         </label>
       </div>
 
@@ -89,7 +89,7 @@ const ThreeColumnLayout: React.FC = () => {
             checked={showAndriiLang}
             onChange={() => setShowAndriiLang(!showAndriiLang)}
           />
-          &nbsp; język programowania Andrzeja
+          &nbsp; <span className="bg-red-100">Andrii LUNDIAK</span>
         </label>
       </div>
       {duplicateCoordinates.length > 0 && (

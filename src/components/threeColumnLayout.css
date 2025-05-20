@@ -63,3 +63,47 @@
     height: auto;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+
+    .centerColumn,
+    .column.left,
+    .column.right {
+      color: lightgray;
+    }
+
+    g.recharts-label-list text {
+      fill: lightgray !important;
+    }
+
+    g.recharts-reference-line {
+      line {
+        stroke: lightsalmon;
+      }
+    }
+
+    g.recharts-reference-area {
+      path {
+        fill-opacity: 0.5;
+        stroke-width: 5;
+      }
+    }
+
+    g.recharts-reference-area.politics {
+      path {
+        fill: green;
+        stroke: green;
+      }
+    }
+
+    g.recharts-reference-area.languages {
+      path {
+        fill: red;
+        stroke: red;
+      }
+    }
+  }
+}

@@ -28,9 +28,15 @@ But as I always liked politics, and I like to dive deeper into political views o
 
 Most complicated is to define exact number in the scale from `[-5; +5]`, because not always people have definitive political views and spectrum is "tricky" sometimes.
 
-![spectrum](./images/political_spectrum.jpeg)
-
 ## Other Political resources:
+
+- Forgot from where I get this, I think it was from [here](https://www.reddit.com/r/PoliticalCompassMemes/comments/fvghtl/comment_what_you_are_and_we_can_debate_why_youre/) - 2020 version
+
+![reddit_political_spectrum](./images/reddit_political_spectrum.jpeg)
+
+- But [here](https://www.reddit.com/r/PoliticalCompassMemes/comments/13jel85/where_do_you_stand/) is another, 2023 version and looks like more detailed:
+
+![reddit_where_do_you_stand](./images/reddit_where_do_you_stand.png)
 
 - https://en.wikipedia.org/wiki/Political_spectrum
 - https://rationalwiki.org/wiki/Political_Compass
@@ -64,4 +70,4 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 
 ## Bonus. Polityczny kompas języków programowania
 
-![v2-lang](./images/v2--lang.png)
+![v2--lang](./images/v2--lang.png)

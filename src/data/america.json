@@ -143,7 +143,7 @@
     "firstName": "Augusto",
     "lastName": "Pinochet",
     "flag": "🇨🇱",
-    "x": 4.1,
+    "x": 4.0,
     "y": 4.5
   },
   {
@@ -159,5 +159,12 @@
     "flag": "🇨🇺",
     "x": -4,
     "y": 3
+  },
+  {
+    "firstName": "Evo",
+    "lastName": "Morales",
+    "flag": "🇧🇴",
+    "x": -4.5,
+    "y": -0.4
   }
 ]

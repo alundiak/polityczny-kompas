@@ -25,14 +25,14 @@
     "lastName": "LePen",
     "flag": "🇫🇷",
     "x": 3.6,
-    "y": 3.1
+    "y": 3
   },
   {
     "firstName": "Maria Theresia Walburga Amalia Christina",
     "lastName": "Maria Teresa",
     "flag": "*",
     "x": 2.2,
-    "y": 4.3
+    "y": 4.2
   },
   {
     "firstName": "",
@@ -67,14 +67,14 @@
     "lastName": "Franco",
     "flag": "🇪🇸",
     "x": 4.5,
-    "y": 5
+    "y": 4.9
   },
   {
     "firstName": "Benito",
     "lastName": "Mussolini",
     "flag": "🇮🇹",
-    "x": 1.8,
-    "y": 5
+    "x": 2,
+    "y": 4.8
   },
   {
     "firstName": "Giorgia",
@@ -95,7 +95,14 @@
     "lastName": "Marks",
     "flag": "🇩🇪",
     "x": -5,
-    "y": 3
+    "y": 1
+  },
+  {
+    "firstName": "Rosa",
+    "lastName": "Luxemburg",
+    "flag": "🇵🇱🇩🇪",
+    "x": -5,
+    "y": -0.8
   },
   {
     "firstName": "Ursula von der",
@@ -220,8 +227,8 @@
     "firstName": "Viktor",
     "lastName": "Orbán",
     "flag": "🇭🇺",
-    "x": 3.6,
-    "y": 3.6
+    "x": 3.8,
+    "y": 3.8
   },
   {
     "firstName": "Aleksandra",
@@ -264,6 +271,13 @@
     "flag": "🇷🇴",
     "x": 2,
     "y": 3
+  },
+  {
+    "firstName": "Călin",
+    "lastName": "Georgescu",
+    "flag": "🇷🇴",
+    "x": 3.5,
+    "y": 3.4
   },
   {
     "firstName": "Ilie",

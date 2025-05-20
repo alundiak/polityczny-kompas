@@ -4,7 +4,7 @@
     "lastName": "Lenin",
     "flag": "🇷🇺",
     "x": -4.5,
-    "y": 3.5
+    "y": 2.6
   },
   {
     "firstName": "Josip",
@@ -45,7 +45,7 @@
     "firstName": "vladimir",
     "lastName": "Putin",
     "flag": "🇷🇺",
-    "x": 3.3,
+    "x": 2.7,
     "y": 4.6
   },
   {
@@ -103,5 +103,12 @@
     "flag": "🇷🇺",
     "x": 3.3,
     "y": -3.5
+  },
+  {
+    "firstName": "Aleksandr",
+    "lastName": "Dugin",
+    "flag": "🇷🇺",
+    "x": 4.6,
+    "y": 4.6
   }
 ]

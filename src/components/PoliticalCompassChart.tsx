@@ -117,6 +117,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               fillOpacity={0.1}
               stroke="green"
               strokeOpacity={0.5}
+              className="politics"
             />
           )}
 
@@ -131,6 +132,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               fillOpacity={0.1}
               stroke="lightcoral"
               strokeOpacity={0.5}
+              className="languages"
             />
           )}
         </ScatterChart>
