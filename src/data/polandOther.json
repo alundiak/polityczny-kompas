@@ -54,6 +54,12 @@
     "y": 2
   },
   {
+    "firstName": "Tomasz",
+    "lastName": "Kusiak",
+    "x": 3.4,
+    "y": 4.7
+  },
+  {
     "firstName": "Artur",
     "lastName": "Dziambor",
     "x": 1.8,
@@ -92,13 +98,19 @@
   {
     "firstName": "Klaudia",
     "lastName": "Jachira",
-    "x": -3,
-    "y": -1
+    "x": -2.1,
+    "y": -2.1
   },
   {
     "firstName": "Robert",
     "lastName": "Biedroń",
     "x": -3.2,
     "y": -2.4
+  },
+  {
+    "firstName": "Włodzimierz",
+    "lastName": "Czarzasty",
+    "x": -3,
+    "y": -0.4
   }
 ]
