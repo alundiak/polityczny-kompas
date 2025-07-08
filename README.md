@@ -48,6 +48,7 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 - ReCharts (`<ScatterChart>`, `<CartesianGrid>`, `<ReferenceLine>`, `<ReferenceArea>` etc.)
   - https://recharts.org/en-US/examples/SimpleScatterChart
   - https://codesandbox.io/p/sandbox/recharts-referencearea-with-a-custom-shape-iwp2j
+  - Jul-2025 UPD. Even `recahrts@3.0.2` is weird. I didn't expect so many issues. Follow https://github.com/recharts/recharts/releases and Upgrade later Autumn-2025.
 - [TailwindCSS](https://tailwindcss.com)
 
 ## Kinda inspired by

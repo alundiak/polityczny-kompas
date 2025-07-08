@@ -1,16 +1,15 @@
 import React from "react";
 import {
-  ScatterChart,
   CartesianGrid,
+  LabelList,
+  ReferenceArea,
+  ReferenceLine,
+  ResponsiveContainer,
+  Scatter,
+  ScatterChart,
+  Tooltip,
   XAxis,
   YAxis,
-  Tooltip,
-  Scatter,
-  LabelList,
-  ReferenceLine,
-  ReferenceArea,
-  ResponsiveContainer,
-  // Legend,
 } from "recharts";
 // import { ScatterPointItem } from "recharts/types/cartesian/Scatter";
 
@@ -43,12 +42,15 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
 
     return (
       <Scatter
+        // key={`key-${scatterId}`} // within recharts@3x it requires key
         name={`${scatterId}-people`}
         data={props.data[scatterId]}
         fill={getColorByType(scatterId)}
         // shape={getShapeByType(scatterId)} // works
         // shape={shapeValue} // does NOT work
         shape={<ShapeAsFlagSvg />} // works, but requires to have `item.payload.flag` always
+        // shape element in recharts@3.x expects tooltipPosition={{ x: 0, y: 0 }}
+        // TBD
         isAnimationActive={false}
       >
         <LabelList
@@ -81,6 +83,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
           {/* Bolder ReferenceLines for X=0 and Y=0 */}
           <ReferenceLine x={0} stroke="#000" strokeWidth={3} />
           <ReferenceLine y={0} stroke="#000" strokeWidth={3} />
+          {/* within recharts@3.x onClick ReferenceLine disappear when NO data for Scatter */}
 
           <XAxis
             type="number"
@@ -100,6 +103,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
           />
 
           <Tooltip />
+          {/* within recharts@3.x tooltip contains more data, like from all data JSON files */}
 
           {props.scattersIds.map(mapper)}
 
@@ -112,7 +116,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               x2={myPoliticalEdges.x2}
               y1={myPoliticalEdges.y1}
               y2={myPoliticalEdges.y2}
-              isFront={false}
+              isFront={false} // is removed in recharts@3.x
               fill="green"
               fillOpacity={0.1}
               stroke="green"
@@ -127,7 +131,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               x2={myProgrammingEdges.x2}
               y1={myProgrammingEdges.y1}
               y2={myProgrammingEdges.y2}
-              isFront={false}
+              isFront={false} // is removed in recharts@3.x
               fill="lightcoral"
               fillOpacity={0.1}
               stroke="lightcoral"
@@ -135,6 +139,8 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               className="languages"
             />
           )}
+
+          {/* within recharts@3.x onClick ReferenceArea blue outline appears */}
         </ScatterChart>
       </ResponsiveContainer>
 
