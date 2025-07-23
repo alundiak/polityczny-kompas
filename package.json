@@ -1,5 +1,5 @@
 {
-  "name": "polityczny-kompas",
+  "name": "@lundiak/polityczny-kompas",
   "private": true,
   "version": "0.0.1",
   "type": "module",
