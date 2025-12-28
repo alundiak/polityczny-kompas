@@ -1,17 +1,17 @@
 import { CSSProperties } from "react";
 import { SymbolType } from "recharts/types/util/types";
 
-import poland2025Json from "../data/poland2025.json";
-import polandOtherJson from "../data/polandOther.json";
-import world from "../data/world.json";
 import america from "../data/america.json";
-import uk from "../data/uk.json";
-import scandinavia from "../data/scandinavia.json";
 import baltics from "../data/baltics.json";
 import europe from "../data/europe.json";
-import ukraineJson from "../data/ukraine.json";
-import russia from "../data/russia.json";
 import lang from "../data/lang.json";
+import poland2025Json from "../data/poland2025.json";
+import polandOtherJson from "../data/polandOther.json";
+import russia from "../data/russia.json";
+import scandinavia from "../data/scandinavia.json";
+import uk from "../data/uk.json";
+import ukraineJson from "../data/ukraine.json";
+import world from "../data/world.json";
 
 import { CompassData, DataKind, Person } from "./models";
 

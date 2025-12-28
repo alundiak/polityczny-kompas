@@ -54,5 +54,19 @@
     "flag": "🇱🇹🇷🇺",
     "x": -0.5,
     "y": -5
+  },
+  {
+    "firstName": "Benjamin",
+    "lastName": "Netanyahu",
+    "flag": "🇮🇱",
+    "x": 3.5,
+    "y": 2.4
+  },
+  {
+    "firstName": "Itamar",
+    "lastName": "Ben-Gvir",
+    "flag": "🇮🇱",
+    "x": 5,
+    "y": 4.5
   }
 ]
