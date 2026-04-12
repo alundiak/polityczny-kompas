@@ -1,0 +1,44 @@
+[
+  {
+    "firstName": "Maria Theresia Walburga Amalia Christina",
+    "lastName": "Maria Teresa",
+    "flag": "*",
+    "x": 2.2,
+    "y": 4.2
+  },
+  {
+    "firstName": "",
+    "lastName": "Józef-II",
+    "flag": "*",
+    "x": 0,
+    "y": 3
+  },
+  {
+    "firstName": "",
+    "lastName": "Franz Joseph-I",
+    "flag": "*",
+    "x": 3,
+    "y": 4
+  },
+  {
+    "firstName": "adolf",
+    "lastName": "Hitler",
+    "flag": "🇩🇪",
+    "x": 0.8,
+    "y": 5
+  },
+  {
+    "firstName": "Francisco",
+    "lastName": "Franco",
+    "flag": "🇪🇸",
+    "x": 4.5,
+    "y": 4.9
+  },
+  {
+    "firstName": "Benito",
+    "lastName": "Mussolini",
+    "flag": "🇮🇹",
+    "x": 2,
+    "y": 4.8
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "firstName": "Napoleon",
+    "lastName": "Napoleon",
+    "flag": "🇫🇷",
+    "x": 1.4,
+    "y": 4.5
+  },
+  {
+    "firstName": "Charles de",
+    "lastName": "Gaulle",
+    "flag": "🇫🇷",
+    "x": 1.5,
+    "y": 2.5
+  },
+  {
+    "firstName": "Emmanuel",
+    "lastName": "Macron",
+    "flag": "🇫🇷",
+    "x": -0.5,
+    "y": -0.4
+  },
+  {
+    "firstName": "Marine",
+    "lastName": "LePen",
+    "flag": "🇫🇷",
+    "x": 3.6,
+    "y": 3
+  }
+]

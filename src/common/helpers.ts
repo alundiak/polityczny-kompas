@@ -4,16 +4,22 @@ import { SymbolType } from "recharts/types/util/types";
 import america from "../data/america.json";
 import baltics from "../data/baltics.json";
 import europe from "../data/europe.json";
+import France from "../data/France.json";
+import Germany from "../data/Germany.json";
+import historical from "../data/historical.json";
+import Hungary from "../data/Hungary.json";
 import lang from "../data/lang.json";
 import poland2025Json from "../data/poland2025.json";
 import polandOtherJson from "../data/polandOther.json";
+import Romania from "../data/Romania.json";
 import russia from "../data/russia.json";
 import scandinavia from "../data/scandinavia.json";
+import Slovakia from "../data/Slovakia.json";
 import uk from "../data/uk.json";
-import ukraineJson from "../data/ukraine.json";
+import ukraineJson from "../data/Ukraine.json";
 import world from "../data/world.json";
 
-import { CompassData, DataKind, Person } from "./models";
+import { CompassData, Person } from "./models";
 
 const setFlag = (flag: string) => {
   return (item: Person) => ({
@@ -24,7 +30,7 @@ const setFlag = (flag: string) => {
 
 const poland2025 = poland2025Json.map(setFlag("🇵🇱"));
 const polandOther = polandOtherJson.map(setFlag("🇵🇱"));
-const ukraine = ukraineJson.map(setFlag("🇺🇦"));
+const Ukraine = ukraineJson.map(setFlag("🇺🇦"));
 
 export const mainData: CompassData = {
   poland2025,
@@ -35,8 +41,14 @@ export const mainData: CompassData = {
   scandinavia,
   baltics,
   europe,
+  Germany,
+  France,
+  Slovakia,
+  Hungary,
+  Romania,
+  Ukraine,
   russia,
-  ukraine,
+  historical,
   lang,
 };
 
@@ -65,24 +77,30 @@ export function findSameCoordinates(data: Person[]): Person[] {
   return duplicates;
 }
 
-export const leftColumnData: DataKind[] = [
+export const leftColumnData: string[] = [
   "poland2025",
   "polandOther",
-  "ukraine",
-  "russia",
   "europe",
+  "France",
+  "Germany",
+  "Slovakia",
+  "Hungary",
+  "Romania",
+  "Ukraine",
+  "russia",
   "baltics",
   "scandinavia",
   "uk",
   "america",
   "world",
+  "historical",
 ];
 
-export const rightColumnData: DataKind[] = ["lang"];
+export const rightColumnData: string[] = ["lang"];
 
-export const DEFAULT_SCATTERS_IDS: DataKind[] = ["poland2025", "polandOther"];
+export const DEFAULT_SCATTERS_IDS: string[] = ["Hungary"];
 
-export const getLabelFromKey = (scatterId: DataKind): string => {
+export const getLabelFromKey = (scatterId: string): string => {
   switch (scatterId) {
     case "poland2025":
       return "🇵🇱Polska (2025)";
@@ -108,8 +126,23 @@ export const getLabelFromKey = (scatterId: DataKind): string => {
     case "europe":
       return "Europa";
 
-    case "ukraine":
+    case "Ukraine":
       return "🇺🇦Ukraina";
+
+    case "Hungary":
+      return "🇭🇺Hungary";
+
+    case "Romania":
+      return "🇷🇴Romania";
+
+    case "Slovakia":
+      return "🇸🇰Slovakia";
+
+    case "Germany":
+      return "🇩🇪Germany";
+
+    case "France":
+      return "🇫🇷France";
 
     case "russia":
       return "🇷🇺rosja";
@@ -122,7 +155,7 @@ export const getLabelFromKey = (scatterId: DataKind): string => {
   }
 };
 
-export const getColorByType = (scatterId: DataKind): string => {
+export const getColorByType = (scatterId: string): string => {
   switch (scatterId) {
     case "poland2025":
       return "blue";
@@ -135,7 +168,7 @@ export const getColorByType = (scatterId: DataKind): string => {
   }
 };
 
-export const getShapeByType = (scatterId: DataKind): SymbolType => {
+export const getShapeByType = (scatterId: string): SymbolType => {
   switch (scatterId) {
     case "poland2025":
     case "polandOther":
@@ -146,7 +179,7 @@ export const getShapeByType = (scatterId: DataKind): SymbolType => {
   }
 };
 
-export const getDataPointStyleByType = (scatterId: DataKind): CSSProperties => {
+export const getDataPointStyleByType = (scatterId: string): CSSProperties => {
   switch (scatterId) {
     case "poland2025":
       return { fontSize: 20, fill: "blue" };
@@ -162,7 +195,7 @@ export const getDataPointStyleByType = (scatterId: DataKind): CSSProperties => {
   }
 };
 
-export const getDataPointFillByType = (scatterId: DataKind): string => {
+export const getDataPointFillByType = (scatterId: string): string => {
   switch (scatterId) {
     case "poland2025":
       return "black";

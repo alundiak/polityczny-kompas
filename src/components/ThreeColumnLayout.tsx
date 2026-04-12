@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 
-import { DEFAULT_SCATTERS_IDS } from "../common/helpers";
-import { DataKind } from "../common/models";
 import {
-  mergedData,
-  mainData,
+  DEFAULT_SCATTERS_IDS,
   findSameCoordinates,
   leftColumnData,
+  mainData,
+  mergedData,
   rightColumnData,
 } from "../common/helpers";
-import PoliticalCompassChart from "./PoliticalCompassChart";
 import LabeledCheckbox from "./LabeledInput";
+import PoliticalCompassChart from "./PoliticalCompassChart";
 
 import "./threeColumnLayout.css";
 import WarningMessage from "./WarningMessage";
@@ -23,11 +22,11 @@ const ThreeColumnLayout: React.FC = () => {
   const [showAndrii, setShowAndrii] = useState(false);
   const [showAndriiLang, setShowAndriiLang] = useState(false);
 
-  const [scattersIds, setScattersIds] = useState<Set<DataKind>>(
-    new Set(DEFAULT_SCATTERS_IDS)
+  const [scattersIds, setScattersIds] = useState<Set<string>>(
+    new Set(DEFAULT_SCATTERS_IDS),
   );
 
-  const toggleCheckbox = (key: DataKind) => {
+  const toggleCheckbox = (key: string) => {
     setScattersIds((prev) => {
       const next = new Set(prev);
       if (next.has(key)) {
@@ -39,7 +38,7 @@ const ThreeColumnLayout: React.FC = () => {
     });
   };
 
-  const mapperPredicate = (scatterId: DataKind) => {
+  const mapperPredicate = (scatterId: string) => {
     return (
       <LabeledCheckbox
         key={`checkbox-for-${scatterId}`}

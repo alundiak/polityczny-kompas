@@ -1,80 +1,10 @@
 [
   {
-    "firstName": "Napoleon",
-    "lastName": "Napoleon",
-    "flag": "🇫🇷",
-    "x": 1.4,
-    "y": 4.5
-  },
-  {
-    "firstName": "Charles de",
-    "lastName": "Gaulle",
-    "flag": "🇫🇷",
-    "x": 1.5,
-    "y": 2.5
-  },
-  {
-    "firstName": "Emmanuel",
-    "lastName": "Macron",
-    "flag": "🇫🇷",
-    "x": -0.5,
-    "y": -0.4
-  },
-  {
-    "firstName": "Marine",
-    "lastName": "LePen",
-    "flag": "🇫🇷",
-    "x": 3.6,
-    "y": 3
-  },
-  {
-    "firstName": "Maria Theresia Walburga Amalia Christina",
-    "lastName": "Maria Teresa",
-    "flag": "*",
-    "x": 2.2,
-    "y": 4.2
-  },
-  {
-    "firstName": "",
-    "lastName": "Józef-II",
-    "flag": "*",
-    "x": 0,
-    "y": 3
-  },
-  {
-    "firstName": "",
-    "lastName": "Franz Joseph-I",
-    "flag": "*",
-    "x": 3,
-    "y": 4
-  },
-  {
     "firstName": "Mark",
     "lastName": "Rutte",
     "flag": "🇳🇱",
     "x": 2.5,
     "y": -0.3
-  },
-  {
-    "firstName": "adolf",
-    "lastName": "Hitler",
-    "flag": "🇩🇪",
-    "x": 0.8,
-    "y": 5
-  },
-  {
-    "firstName": "Francisco",
-    "lastName": "Franco",
-    "flag": "🇪🇸",
-    "x": 4.5,
-    "y": 4.9
-  },
-  {
-    "firstName": "Benito",
-    "lastName": "Mussolini",
-    "flag": "🇮🇹",
-    "x": 2,
-    "y": 4.8
   },
   {
     "firstName": "Giorgia",
@@ -89,76 +19,6 @@
     "flag": "🇮🇹",
     "x": 1.0,
     "y": -0.7
-  },
-  {
-    "firstName": "Karl",
-    "lastName": "Marks",
-    "flag": "🇩🇪",
-    "x": -4.8,
-    "y": -0.4
-  },
-  {
-    "firstName": "Rosa",
-    "lastName": "Luxemburg",
-    "flag": "🇵🇱🇩🇪",
-    "x": -5,
-    "y": -0.8
-  },
-  {
-    "firstName": "Ursula von der",
-    "lastName": "Leyen",
-    "flag": "🇩🇪",
-    "x": 0.5,
-    "y": 0.5
-  },
-  {
-    "firstName": "Annalena",
-    "lastName": "Baerbock",
-    "flag": "🇩🇪",
-    "x": -2.8,
-    "y": -2.8
-  },
-  {
-    "firstName": "Sahra",
-    "lastName": "Wagenknecht",
-    "flag": "🇩🇪",
-    "x": -2,
-    "y": 3
-  },
-  {
-    "firstName": "Alice",
-    "lastName": "Weidel",
-    "flag": "🇩🇪",
-    "x": 3.8,
-    "y": 2.3
-  },
-  {
-    "firstName": "Frank-Walter",
-    "lastName": "Steinmeier",
-    "flag": "🇩🇪",
-    "x": -1.5,
-    "y": 0.9
-  },
-  {
-    "firstName": "Olaf",
-    "lastName": "Scholz",
-    "flag": "🇩🇪",
-    "x": -1.2,
-    "y": -0.7
-  },
-  {
-    "firstName": "Friedrich",
-    "lastName": "Merz",
-    "flag": "🇩🇪",
-    "x": 2.1,
-    "y": 1.2
-  },
-  {
-    "firstName": "Angela",
-    "lastName": "Merkel",
-    "flag": "🇩🇪",
-    "x": 0.8,
-    "y": 0.8
   },
   {
     "firstName": "Christian",
@@ -189,69 +49,6 @@
     "y": 1
   },
   {
-    "firstName": "Zuzana",
-    "lastName": "Čaputová",
-    "flag": "🇸🇰",
-    "x": -2,
-    "y": -1.3
-  },
-  {
-    "firstName": "Michal",
-    "lastName": "Šimečka",
-    "flag": "🇸🇰",
-    "x": -2.6,
-    "y": -1.5
-  },
-  {
-    "firstName": "Robert",
-    "lastName": "Fico",
-    "flag": "🇸🇰",
-    "x": -0.5,
-    "y": 3.5
-  },
-  {
-    "firstName": "Peter",
-    "lastName": "Pellegrini",
-    "flag": "🇸🇰",
-    "x": 0,
-    "y": 0.2
-  },
-  {
-    "firstName": "Eduard",
-    "lastName": "Heger",
-    "flag": "🇸🇰",
-    "x": 1.5,
-    "y": 1
-  },
-  {
-    "firstName": "Katalin",
-    "lastName": "Novák",
-    "flag": "🇭🇺",
-    "x": 1,
-    "y": 2.8
-  },
-  {
-    "firstName": "Viktor",
-    "lastName": "Orbán",
-    "flag": "🇭🇺",
-    "x": 3.8,
-    "y": 3.8
-  },
-  {
-    "firstName": "Aleksandra",
-    "lastName": "Szentkirályi",
-    "flag": "🇭🇺",
-    "x": 2.4,
-    "y": 3.4
-  },
-  {
-    "firstName": "Péter",
-    "lastName": "Magyar",
-    "flag": "🇭🇺",
-    "x": 0.9,
-    "y": 1.8
-  },
-  {
     "firstName": "Aleksandr",
     "lastName": "Vučić",
     "flag": "🇷🇸",
@@ -264,61 +61,5 @@
     "flag": "*🇷🇸",
     "x": -1,
     "y": 4
-  },
-  {
-    "firstName": "Klaus",
-    "lastName": "Iohannis",
-    "flag": "🇷🇴",
-    "x": 1.5,
-    "y": 0.5
-  },
-  {
-    "firstName": "Cătălin",
-    "lastName": "Predoiu",
-    "flag": "🇷🇴",
-    "x": 2,
-    "y": 3
-  },
-  {
-    "firstName": "Călin",
-    "lastName": "Georgescu",
-    "flag": "🇷🇴",
-    "x": 3.5,
-    "y": 3.4
-  },
-  {
-    "firstName": "Ilie",
-    "lastName": "Bolojan",
-    "flag": "🇷🇴",
-    "x": 2.3,
-    "y": 2.4
-  },
-  {
-    "firstName": "George",
-    "lastName": "Simion",
-    "flag": "🇷🇴",
-    "x": 4.4,
-    "y": 2.7
-  },
-  {
-    "firstName": "Nicușor",
-    "lastName": "Dan",
-    "flag": "🇷🇴",
-    "x": 0.9,
-    "y": -1.3
-  },
-  {
-    "firstName": "Igor",
-    "lastName": "Dodon",
-    "flag": "🇲🇩",
-    "x": -3.2,
-    "y": 1.6
-  },
-  {
-    "firstName": "Maia",
-    "lastName": "Sandu",
-    "flag": "🇲🇩",
-    "x": 0.7,
-    "y": -1
   }
 ]

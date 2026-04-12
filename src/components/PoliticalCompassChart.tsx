@@ -21,12 +21,12 @@ import {
   myPoliticalEdges,
   myProgrammingEdges,
 } from "../common/helpers";
-import { DataKind, PoliticalCompassChartProps } from "../common/models";
+import { PoliticalCompassChartProps } from "../common/models";
 import AxisLabels from "./AxisLabels";
 import ShapeAsFlagSvg from "./ShapeAsFlagSvg";
 
 const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
-  const mapper = (scatterId: DataKind) => {
+  const mapper = (scatterId: string) => {
     // Note. YES, <Scatter> should rendered DIRECTLY as child under <ScatterChart>
     // If to extract this chunk of code into dedicated component, then code will NOT render!
 

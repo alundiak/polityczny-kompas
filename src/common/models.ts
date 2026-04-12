@@ -1,17 +1,3 @@
-export type DataKind =
-  | "poland2025"
-  | "polandOther"
-  | "world"
-  | "america"
-  | "uk"
-  | "scandinavia"
-  | "baltics"
-  | "europe"
-  | "russia"
-  | "ukraine"
-  | "world"
-  | "lang";
-
 export interface Person {
   firstName?: string;
   lastName: string;
@@ -26,15 +12,15 @@ export interface CompassData {
 
 export interface PoliticalCompassChartProps {
   data: CompassData;
-  scattersIds: DataKind[];
+  scattersIds: string[];
   showAndrii: boolean;
   showAndriiLang: boolean;
 }
 
 export interface LabeledCheckboxProps {
-  scatterId: DataKind;
+  scatterId: string;
   isChecked: boolean;
-  onChangeHandler: (currentScatterId: DataKind) => void;
+  onChangeHandler: (currentScatterId: string) => void;
   label: string;
 }
 

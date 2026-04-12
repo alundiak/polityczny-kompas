@@ -1,0 +1,72 @@
+[
+  {
+    "firstName": "Karl",
+    "lastName": "Marks",
+    "flag": "🇩🇪",
+    "x": -4.8,
+    "y": -0.4
+  },
+  {
+    "firstName": "Rosa",
+    "lastName": "Luxemburg",
+    "flag": "🇵🇱🇩🇪",
+    "x": -5,
+    "y": -0.8
+  },
+  {
+    "firstName": "Ursula von der",
+    "lastName": "Leyen",
+    "flag": "🇩🇪",
+    "x": 0.5,
+    "y": 0.5
+  },
+  {
+    "firstName": "Annalena",
+    "lastName": "Baerbock",
+    "flag": "🇩🇪",
+    "x": -2.8,
+    "y": -2.8
+  },
+  {
+    "firstName": "Sahra",
+    "lastName": "Wagenknecht",
+    "flag": "🇩🇪",
+    "x": -2,
+    "y": 3
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Weidel",
+    "flag": "🇩🇪",
+    "x": 3.8,
+    "y": 2.3
+  },
+  {
+    "firstName": "Frank-Walter",
+    "lastName": "Steinmeier",
+    "flag": "🇩🇪",
+    "x": -1.5,
+    "y": 0.9
+  },
+  {
+    "firstName": "Olaf",
+    "lastName": "Scholz",
+    "flag": "🇩🇪",
+    "x": -1.2,
+    "y": -0.7
+  },
+  {
+    "firstName": "Friedrich",
+    "lastName": "Merz",
+    "flag": "🇩🇪",
+    "x": 2.1,
+    "y": 1.2
+  },
+  {
+    "firstName": "Angela",
+    "lastName": "Merkel",
+    "flag": "🇩🇪",
+    "x": 0.8,
+    "y": 0.8
+  }
+]
