@@ -2,13 +2,7 @@ import { ScatterPointItem } from "recharts/types/cartesian/Scatter";
 
 import "./shapeAsFlag.css";
 
-//  maybe
-// interface ShapeAsFlagSvgProps {
-//   data: ScatterPointItem;
-// }
-
 const ShapeAsFlagSvg = (data: ScatterPointItem) => {
-  // console.log(data);
   return (
     <text
       // don't use data.x and .data.y

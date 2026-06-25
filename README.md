@@ -51,6 +51,8 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
   - Jul-2025 UPDATED.
     - `recahrts@3.0.2` is weird. I didn't expect so many issues. Follow https://github.com/recharts/recharts/releases and Upgrade later Autumn-2025.
     - `recahrts@3.1.0` also behaves differently.
+  - Jun-2026 UPDATED.
+    - `recahrts@3.9.0` seems stable, works.
 - [TailwindCSS](https://tailwindcss.com)
 
 ## Kinda inspired by

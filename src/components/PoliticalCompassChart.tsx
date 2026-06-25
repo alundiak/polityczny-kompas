@@ -42,15 +42,15 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
 
     return (
       <Scatter
-        // key={`key-${scatterId}`} // within recharts@3x it requires key
+        key={`key-${scatterId}`} // recharts@3x requires key
         name={`${scatterId}-people`}
         data={props.data[scatterId]}
         fill={getColorByType(scatterId)}
         // shape={getShapeByType(scatterId)} // works
         // shape={shapeValue} // does NOT work
-        shape={<ShapeAsFlagSvg />} // works, but requires to have `item.payload.flag` always
-        // shape element in recharts@3.x expects tooltipPosition={{ x: 0, y: 0 }}
-        // TBD
+        // shape={"diamond"} // works
+        // default shape is circle
+        shape={ShapeAsFlagSvg} // recharts@3x requires type of component, not instance
         isAnimationActive={false}
       >
         <LabelList
@@ -116,7 +116,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               x2={myPoliticalEdges.x2}
               y1={myPoliticalEdges.y1}
               y2={myPoliticalEdges.y2}
-              isFront={false} // is removed in recharts@3.x
+              // isFront={false} // is removed in recharts@3.x
               fill="green"
               fillOpacity={0.1}
               stroke="green"
@@ -131,7 +131,7 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               x2={myProgrammingEdges.x2}
               y1={myProgrammingEdges.y1}
               y2={myProgrammingEdges.y2}
-              isFront={false} // is removed in recharts@3.x
+              // isFront={false} // is removed in recharts@3.x
               fill="lightcoral"
               fillOpacity={0.1}
               stroke="lightcoral"
