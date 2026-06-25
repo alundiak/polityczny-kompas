@@ -116,7 +116,6 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               x2={myPoliticalEdges.x2}
               y1={myPoliticalEdges.y1}
               y2={myPoliticalEdges.y2}
-              // isFront={false} // is removed in recharts@3.x
               fill="green"
               fillOpacity={0.1}
               stroke="green"
@@ -131,7 +130,6 @@ const PoliticalCompassChart: React.FC<PoliticalCompassChartProps> = (props) => {
               x2={myProgrammingEdges.x2}
               y1={myProgrammingEdges.y1}
               y2={myProgrammingEdges.y2}
-              // isFront={false} // is removed in recharts@3.x
               fill="lightcoral"
               fillOpacity={0.1}
               stroke="lightcoral"
