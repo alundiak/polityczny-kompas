@@ -76,3 +76,5 @@ Most complicated is to define exact number in the scale from `[-5; +5]`, because
 ## Bonus. Polityczny kompas języków programowania
 
 ![v2--lang](./images/v2--lang.png)
+
+TODO - REWORK code

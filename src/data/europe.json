@@ -52,8 +52,15 @@
     "firstName": "Aleksandr",
     "lastName": "Vučić",
     "flag": "🇷🇸",
-    "x": 1,
-    "y": 3.5
+    "x": 2.2,
+    "y": 2.8
+  },
+  {
+    "firstName": "Ana",
+    "lastName": "Brnabić",
+    "flag": "🇷🇸",
+    "x": 1.5,
+    "y": 2.4
   },
   {
     "firstName": "Slobodan",
@@ -61,5 +68,12 @@
     "flag": "*🇷🇸",
     "x": -1,
     "y": 4
+  },
+  {
+    "firstName": "Edi",
+    "lastName": "Rama",
+    "flag": "🇦🇱",
+    "x": -1,
+    "y": 2
   }
 ]
